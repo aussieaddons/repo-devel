@@ -56,6 +56,7 @@ __version__ = "1.3.0"
 import argparse
 import collections
 import fnmatch
+import git
 import gzip
 import hashlib
 import io
@@ -109,10 +110,8 @@ def parse_metadata(metadata_file):
     if (addon_metadata.id is None or
             re.search('[^a-z0-9._-]', addon_metadata.id)):
         raise RuntimeError('Invalid addon ID: ' + str(addon_metadata.id))
-    if (addon_metadata.version is None or
-            not re.match(r'\d+\.\d+\.\d+$', addon_metadata.version)):
-        raise RuntimeError(
-            'Invalid addon verson: ' + str(addon_metadata.version))
+    if addon_metadata.version is None:
+        raise RuntimeError('Addon version not found')
     return addon_metadata
 
 
@@ -124,6 +123,63 @@ def generate_checksum(archive_path):
             checksum.update(chunk)
     with open(checksum_path, 'w') as sig:
         sig.write(checksum.hexdigest())
+
+
+def get_commit_names(repo, tag1, tag2):
+    rev = '{0}...{1}'.format(tag1, tag2)
+    clist = repo.iter_commits(rev=rev)
+    commits = [c.message.splitlines()[0] for c in clist]
+    return commits
+
+
+def generate_changelog(addon_location, version, repo):
+    repo = git.Repo(addon_location)
+    tags = [t.name for t in repo.tags]
+    ver = get_version(repo)
+    tags.append('v' + ver)
+    tags.reverse()
+
+    changelog_file = os.path.join(addon_location, 'changelog.txt')
+
+    f = open(changelog_file, 'w')
+
+    for i, tag in enumerate(tags):
+        if i == len(tags)-1:
+            commits = ['Initial version']
+        else:
+            commits = get_commit_names(repo, tag, tags[i+1])
+
+        if commits:
+            f.write("[B]Version %s[/B]\n" % tag)
+            for commit in commits:
+                if re.match('Version v?\d+', commit, flags=re.IGNORECASE):
+                    continue
+                if re.match('^(Merge pull request|Merge branch)', commit):
+                    continue
+                f.write('- {0}\n'.format(commit))
+            f.write('\n')
+    f.close()
+
+
+def get_version(repo):
+    return repo.git.describe().lstrip('v')
+
+
+def update_version(metadata_path, repo):
+    version = get_version(repo)
+
+    tree = xml.etree.ElementTree.ElementTree(file=metadata_path)
+    root = tree.getroot()
+    root.set('version', version)
+
+    with io.BytesIO() as info_file:
+        tree.write(info_file, encoding='UTF-8', xml_declaration=True)
+        info_contents = info_file.getvalue()
+
+    info_file = open(metadata_path, 'wb')
+    with info_file:
+        info_file.write(info_contents)
+
 
 
 def copy_metadata_files(source_folder, addon_target_folder, addon_metadata):
@@ -185,11 +241,16 @@ def fetch_addon_from_folder(raw_addon_location, target_folder):
 
     ignore = ['*.pyc', '*.pyo', '*.swp', '*.zip', '.gitignore']
 
+    repo = git.Repo(addon_location)
+    generate_changelog(addon_location, addon_metadata.version, repo)
+    update_version(metadata_path, repo)
+
     # Create the compressed add-on archive.
     if not os.path.isdir(addon_target_folder):
         os.mkdir(addon_target_folder)
     archive_path = os.path.join(
         addon_target_folder, get_archive_basename(addon_metadata))
+
     with zipfile.ZipFile(archive_path, 'w',
                          compression=zipfile.ZIP_DEFLATED) as archive:
         for (root, dirs, files) in os.walk(addon_location):
@@ -285,14 +346,6 @@ def get_addon_worker(addon_location, target_folder):
 
 def create_repository(addon_locations, target_folder, info_path,
                       checksum_path, is_compressed):
-    # Import git lazily.
-    if any(is_url(addon_location) for addon_location in addon_locations):
-        try:
-            global git
-            import git
-        except ImportError:
-            raise RuntimeError(
-                'Please install GitPython: pip install gitpython')
 
     # Create the target folder.
     if not os.path.isdir(target_folder):
@@ -320,8 +373,8 @@ def create_repository(addon_locations, target_folder, info_path,
 
     # If addons.xml already exists, read it
     if os.path.isfile(info_path):
-        doc = xml.etree.ElementTree.ElementTree(file=info_path)
-        root = doc.getroot()
+        tree = xml.etree.ElementTree.ElementTree(file=info_path)
+        root = tree.getroot()
     else:
         # Generate the addons.xml file.
         root = xml.etree.ElementTree.Element('addons')
