@@ -1,5 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<addons><addon id="plugin.video.afl-video" name="AFL Video" provider-name="Andy Botting" version="1.8.0">
+<addons><addon id="repository.aussieaddons-devel" name="Aussie Add-ons (development)" provider-name="Aussie Add-ons" version="1.0.0">
+   <extension point="xbmc.addon.repository" name="Aussie Add-ons Development Repository">
+      <info compressed="false">http://aussieaddons.com/repository-devel/addons.xml</info>
+      <checksum>http://aussieaddons.com/repository-devel/addons.xml.md5</checksum>
+      <datadir zip="true">http://aussieaddons.com/repository-devel/</datadir>
+   </extension>
+   <extension point="xbmc.addon.metadata">
+      <summary>Install Aussie Add-ons (development) plugins</summary>
+      <description>Download and install add-ons from the Aussie Add-ons development repository. This repository may include unstable add-ons. Use at your own risk.</description>
+      <platform>all</platform>
+   </extension>
+</addon>
+<addon id="plugin.video.afl-video" name="AFL Video" provider-name="Andy Botting" version="1.8.0">
    <requires>
       <import addon="xbmc.python" version="2.1.0" />
       <import addon="script.module.beautifulsoup4" />
