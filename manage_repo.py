@@ -236,14 +236,15 @@ def fetch_addon_from_git(addon_location, target_folder):
 def fetch_addon_from_folder(raw_addon_location, target_folder):
     addon_location = os.path.expanduser(raw_addon_location)
     metadata_path = os.path.join(addon_location, INFO_BASENAME)
+
+    repo = git.Repo(addon_location)
+    update_version(metadata_path, repo)
     addon_metadata = parse_metadata(metadata_path)
+    generate_changelog(addon_location, addon_metadata.version, repo)
+
     addon_target_folder = os.path.join(target_folder, addon_metadata.id)
 
     ignore = ['*.pyc', '*.pyo', '*.swp', '*.zip', '.gitignore']
-
-    repo = git.Repo(addon_location)
-    generate_changelog(addon_location, addon_metadata.version, repo)
-    update_version(metadata_path, repo)
 
     # Create the compressed add-on archive.
     if not os.path.isdir(addon_target_folder):
