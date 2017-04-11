@@ -1,9 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<addon id="plugin.video.abc_iview" name="ABC iView" version="1.7.6-18-g2673424">
+<addon id="plugin.video.abc_iview" name="ABC iView" version="1.7.6-19-g4b9f86a">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
     <import addon="script.common.plugin.cache" />
     <import addon="script.module.beautifulsoup" />
+    <import addon="script.module.requests" />
   </requires>
   <extension library="default.py" point="xbmc.python.pluginsource" provides="video">
     <provides>video</provides>
@@ -161,7 +162,8 @@
 
 [B]Version v1.1.0[/B]
 - Initial version
-</news><news>[B]Version v1.7.6-18-g2673424[/B]
+</news><news>[B]Version v1.7.6-19-g4b9f86a[/B]
+- Add missing requests import
 - Switch to mobile API and update metadata for Kodi v17
 - Remove cookies.dat on each playback
 - Update README.markdown
