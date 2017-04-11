@@ -1,35 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<addons><addon id="repository.aussieaddons-devel" name="Aussie Add-ons (development)" provider-name="Aussie Add-ons" version="1.0.0">
-   <extension name="Aussie Add-ons Development Repository" point="xbmc.addon.repository">
-      <info compressed="false">http://aussieaddons.com/repository-devel/addons.xml</info>
-      <checksum>http://aussieaddons.com/repository-devel/addons.xml.md5</checksum>
-      <datadir zip="true">http://aussieaddons.com/repository-devel/</datadir>
-   </extension>
-   <extension point="xbmc.addon.metadata">
-      <summary>Install Aussie Add-ons (development) plugins</summary>
-      <description>Download and install add-ons from the Aussie Add-ons development repository. This repository may include unstable add-ons. Use at your own risk.</description>
-      <platform>all</platform>
-   </extension>
-</addon>
-<addon id="plugin.video.afl-video" name="AFL Video" provider-name="Andy Botting" version="1.8.0-2-g5c281c9">
-   <requires>
-      <import addon="xbmc.python" version="2.1.0" />
-      <import addon="script.module.beautifulsoup4" />
-      <import addon="script.module.requests" />
-      <import addon="script.common.plugin.cache" />
-   </requires>
-   <extension library="default.py" point="xbmc.python.pluginsource" provides="video">
-    <provides>video</provides>
-  </extension>
-   <extension point="xbmc.addon.metadata">
-      <summary>AFL Video</summary>
-      <description>Watch the latest AFL replays, news and match reports. Live streaming available with a valid AFL Live Pass</description>
-      <disclaimer>This plugin is not affiliated with the AFL in any way.</disclaimer>
-      <provides>video</provides>
-      <platform>all</platform>
-      <license>GPL 3</license>
-   </extension>
-</addon><addon id="plugin.video.abc_iview" name="ABC iView" version="1.7.6-18-g2673424">
+<addon id="plugin.video.abc_iview" name="ABC iView" version="1.7.6-18-g2673424">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
     <import addon="script.common.plugin.cache" />
@@ -270,4 +240,4 @@
 [B]Version v1.6.0[/B]
 - Initial version
 </news></extension>
-</addon></addons>
+</addon>
