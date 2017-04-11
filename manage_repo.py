@@ -132,41 +132,65 @@ def get_commit_names(repo, tag1, tag2):
     return commits
 
 
-def generate_changelog(addon_location, version, repo):
-    repo = git.Repo(addon_location)
+def generate_changelog(repo):
     tags = [t.name for t in repo.tags]
     ver = get_version(repo)
     tags.append('v' + ver)
     tags.reverse()
-
-    changelog_file = os.path.join(addon_location, 'changelog.txt')
-
-    f = open(changelog_file, 'w')
-
+    lines = []
     for i, tag in enumerate(tags):
         if i == len(tags)-1:
             commits = ['Initial version']
         else:
             commits = get_commit_names(repo, tag, tags[i+1])
-
         if commits:
-            f.write("[B]Version %s[/B]\n" % tag)
+            lines.append("[B]Version {0}[/B]".format(tag))
             for commit in commits:
+                l = '- {0}'.format(commit)
+                # Skip duplicate lines
+                if l == lines[-1]:
+                    continue
+                # Skip the 'Update to v1.0' tag commit messages
+                if re.match('Update.*v?' + tag.lstrip('v'), commit):
+                    continue
                 if re.match('Version v?\d+', commit, flags=re.IGNORECASE):
                     continue
                 if re.match('^(Merge pull request|Merge branch)', commit):
                     continue
-                f.write('- {0}\n'.format(commit))
-            f.write('\n')
-    f.close()
+                lines.append(l)
+            lines.append('')
+    return lines
+
+def write_changelog_file(addon_location, changelog):
+    changelog_file = os.path.join(addon_location, 'changelog.txt')
+    with open(changelog_file, 'w') as f:
+        f.writelines('\n'.join(changelog))
 
 
 def get_version(repo):
     return repo.git.describe().lstrip('v')
 
 
-def update_version(metadata_path, repo):
-    version = get_version(repo)
+def update_news(metadata_path, changelog):
+    tree = xml.etree.ElementTree.ElementTree(file=metadata_path)
+    root = tree.getroot()
+
+    metadata = root.find('extension[@point="xbmc.addon.metadata"]')
+    news = metadata.find('news')
+    if not news:
+        news = xml.etree.ElementTree.SubElement(metadata, 'news')
+    news.text = '\n'.join(changelog)
+
+    with io.BytesIO() as info_file:
+        tree.write(info_file, encoding='UTF-8', xml_declaration=True)
+        info_contents = info_file.getvalue()
+
+    info_file = open(metadata_path, 'wb')
+    with info_file:
+        info_file.write(info_contents)
+
+
+def update_version(metadata_path, version):
 
     tree = xml.etree.ElementTree.ElementTree(file=metadata_path)
     root = tree.getroot()
@@ -238,13 +262,19 @@ def fetch_addon_from_folder(raw_addon_location, target_folder):
     metadata_path = os.path.join(addon_location, INFO_BASENAME)
 
     repo = git.Repo(addon_location)
-    update_version(metadata_path, repo)
-    addon_metadata = parse_metadata(metadata_path)
-    generate_changelog(addon_location, addon_metadata.version, repo)
+    version = get_version(repo)
 
+    # Update addon metadata
+    update_version(metadata_path, version)
+    changelog = generate_changelog(repo)
+    write_changelog_file(addon_location, changelog)
+    update_news(metadata_path, changelog)
+
+    addon_metadata = parse_metadata(metadata_path)
     addon_target_folder = os.path.join(target_folder, addon_metadata.id)
 
-    ignore = ['*.pyc', '*.pyo', '*.swp', '*.zip', '.gitignore']
+    ignore = ['*.pyc', '*.pyo', '*.swp', '*.zip', '.gitignore', '.travis.yml',
+              'requirements.txt', '__pycache__', 'tox.ini', '.tox']
 
     # Create the compressed add-on archive.
     if not os.path.isdir(addon_target_folder):
