@@ -268,9 +268,6 @@
 - Fix ElementTree issue with Python 2.6
 
 [B]Version v1.6.1[/B]
-- Make feed parsing faster and fix series thumbnail issue
-
-[B]Version v1.6.0[/B]
 - Initial version
 </news></extension>
 </addon></addons>
