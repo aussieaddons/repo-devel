@@ -29,7 +29,7 @@
       <platform>all</platform>
       <license>GPL 3</license>
    </extension>
-</addon><addon id="plugin.video.abc_iview" name="ABC iView" version="1.7.6-20-gb191e76">
+</addon><addon id="plugin.video.abc_iview" name="ABC iView" version="1.7.6-22-g5932441">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
     <import addon="script.common.plugin.cache" />
@@ -192,8 +192,9 @@
 
 [B]Version v1.1.0[/B]
 - Initial version
-</news><news>[B]Version v1.7.6-20-gb191e76[/B]
-- Test
+</news><news>[B]Version v1.7.6-22-g5932441[/B]
+- Fix for duplicate entries in news categories
+- Switch to using requests
 - Add missing requests import
 - Switch to mobile API and update metadata for Kodi v17
 - Remove cookies.dat on each playback
