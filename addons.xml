@@ -344,7 +344,7 @@
 [B]Version v1.6.1[/B]
 - Initial version
 </news></extension>
-</addon><addon id="plugin.video.bigpond-movies" name="Bigpond Movies" provider-name="Glenn Guy" version="0.0.2-1-g138b521">
+</addon><addon id="plugin.video.bigpond-movies" name="Bigpond Movies" provider-name="Glenn Guy" version="0.0.2-3-gffe13d0">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
     <import addon="script.module.requests" />
@@ -359,7 +359,8 @@
     <description>Access everything that Telstra's Bigpond Movies has to offer</description>
     <provides>video</provides>
     <platform>all</platform>
-  <news>[B]Version v0.0.2-1-g138b521[/B]
+  <news>[B]Version v0.0.2-3-gffe13d0[/B]
+- Improvements to wvhelper, tidy up code.
 - Remove incorrect import
 
 [B]Version v0.0.1[/B]
