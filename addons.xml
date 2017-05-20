@@ -366,7 +366,7 @@
 [B]Version v0.0.1[/B]
 - Initial version
 </news></extension>
-</addon><addon id="script.module.drmhelper" name="DRM Helper" provider-name="Glenn Guy" version="1.0.0-1-gc25f979">
+</addon><addon id="script.module.drmhelper" name="DRM Helper" provider-name="Glenn Guy" version="1.0.0-2-g93203b2">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
   </requires>
@@ -382,7 +382,8 @@
     <source>https://github.com/glennguy/script.module.drmhelper</source>
     <platform>all</platform>
     <license>GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007</license>
-  <news>[B]Version v1.0.0-1-gc25f979[/B]
+  <news>[B]Version v1.0.0-2-g93203b2[/B]
+- Add config
 - Improvement in checking for inputstream.adaptive
 
 [B]Version v1.0.0[/B]
