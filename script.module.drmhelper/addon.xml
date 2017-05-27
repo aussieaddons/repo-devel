@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<addon id="script.module.drmhelper" name="DRM Helper" provider-name="Glenn Guy" version="1.0.0-3-g603bb8f">
+<addon id="script.module.drmhelper" name="DRM Helper" provider-name="Glenn Guy" version="1.0.0-4-g63055e6">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
   </requires>
@@ -15,7 +15,8 @@
     <source>https://github.com/glennguy/script.module.drmhelper</source>
     <platform>all</platform>
     <license>GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007</license>
-  <news>[B]Version v1.0.0-3-g603bb8f[/B]
+  <news>[B]Version v1.0.0-4-g63055e6[/B]
+- Catch error when trying to install modules without i.a
 - Add error message for Kodi &lt; 17.0
 - Add config
 - Improvement in checking for inputstream.adaptive
