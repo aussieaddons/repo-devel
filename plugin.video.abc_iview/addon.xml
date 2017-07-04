@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<addon id="plugin.video.abc_iview" name="ABC iView" version="1.7.6-22-g5932441">
+<addon id="plugin.video.abc_iview" name="ABC iView" version="1.8.0">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
     <import addon="script.common.plugin.cache" />
@@ -162,7 +162,7 @@
 
 [B]Version v1.1.0[/B]
 - Initial version
-</news><news>[B]Version v1.7.6-22-g5932441[/B]
+</news><news>[B]Version v1.8.0[/B]
 - Fix for duplicate entries in news categories
 - Switch to using requests
 - Add missing requests import
