@@ -1,10 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<addon id="plugin.video.abc_iview" name="ABC iView" version="1.8.0">
+<addon id="plugin.video.abc_iview" name="ABC iView" version="1.7.6-27-g9f0949f">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
     <import addon="script.common.plugin.cache" />
     <import addon="script.module.beautifulsoup" />
     <import addon="script.module.requests" />
+    <import addon="script.module.issuereporter" />
   </requires>
   <extension library="default.py" point="xbmc.python.pluginsource" provides="video">
     <provides>video</provides>
@@ -162,7 +163,12 @@
 
 [B]Version v1.1.0[/B]
 - Initial version
-</news><news>[B]Version v1.8.0[/B]
+</news><news>[B]Version v1.7.6-27-g9f0949f[/B]
+- Validate categories
+- Remove automatic time/timezone calculation, small cleanup
+- Use external issue reporter module, rework dialog function
+- Correct implementation of DST calculation, handle exceptions
+- 404 error fixes, Flake8, other small changes
 - Fix for duplicate entries in news categories
 - Switch to using requests
 - Add missing requests import
@@ -232,13 +238,6 @@
 - Restore description &amp; thumbnail to series list
 
 [B]Version v1.6.3[/B]
-- Parse episode title and add aired date
-
-[B]Version v1.6.2[/B]
-- Only allow issue reporting on latest version
-- Fix ElementTree issue with Python 2.6
-
-[B]Version v1.6.1[/B]
 - Initial version
 </news></extension>
 </addon>
