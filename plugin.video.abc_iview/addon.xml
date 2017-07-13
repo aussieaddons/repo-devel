@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<addon id="plugin.video.abc_iview" name="ABC iView" version="1.7.6-27-g9f0949f">
+<addon id="plugin.video.abc_iview" name="ABC iView" version="1.7.6-26-ged9b5db">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
     <import addon="script.common.plugin.cache" />
@@ -163,7 +163,7 @@
 
 [B]Version v1.1.0[/B]
 - Initial version
-</news><news>[B]Version v1.7.6-27-g9f0949f[/B]
+</news><news>[B]Version v1.7.6-26-ged9b5db[/B]
 - Validate categories
 - Remove automatic time/timezone calculation, small cleanup
 - Use external issue reporter module, rework dialog function
