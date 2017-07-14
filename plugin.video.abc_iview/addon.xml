@@ -1,11 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<addon id="plugin.video.abc_iview" name="ABC iView" version="1.7.6-26-ged9b5db">
+<addon id="plugin.video.abc_iview" name="ABC iView" version="1.7.6-27-g2c53513">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
     <import addon="script.common.plugin.cache" />
     <import addon="script.module.beautifulsoup" />
     <import addon="script.module.requests" />
     <import addon="script.module.issuereporter" />
+    <import addon="script.module.customsession" />
   </requires>
   <extension library="default.py" point="xbmc.python.pluginsource" provides="video">
     <provides>video</provides>
@@ -163,7 +164,8 @@
 
 [B]Version v1.1.0[/B]
 - Initial version
-</news><news>[B]Version v1.7.6-26-ged9b5db[/B]
+</news><news>[B]Version v1.7.6-27-g2c53513[/B]
+- Use customsession module
 - Validate categories
 - Remove automatic time/timezone calculation, small cleanup
 - Use external issue reporter module, rework dialog function
@@ -234,10 +236,6 @@
 - Improve error handling and reporting
 
 [B]Version v1.6.4[/B]
-- Catchup repo &amp; zip links on github not google code
-- Restore description &amp; thumbnail to series list
-
-[B]Version v1.6.3[/B]
 - Initial version
 </news></extension>
 </addon>
