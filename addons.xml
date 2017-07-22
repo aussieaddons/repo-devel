@@ -635,7 +635,7 @@
 [B]Version v1.0.0[/B]
 - Initial version
 </news></extension>
-</addon><addon id="plugin.video.plus7" name="Plus7" provider-name="Andy Botting" version="3.1.1-26-g71d9f99">
+</addon><addon id="plugin.video.plus7" name="Plus7" provider-name="Andy Botting" version="3.1.1-27-g0df08a1">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
     <import addon="script.module.drmhelper" />
@@ -650,7 +650,8 @@
     <description>PLUS7 offers video streaming of full length episodes as seen on Seven, 7TWO and other content partners - just hit the play button and you can watch high quality, full screen videos straightaway without having to wait for downloads.</description>
     <provides>video</provides>
     <platform>all</platform>
-  <news>[B]Version v3.1.1-26-g71d9f99[/B]
+  <news>[B]Version v3.1.1-27-g0df08a1[/B]
+- Update README
 - Update utils for flake8 compatibility, remove version file
 - Add new higher resolution icon
 - Add Travis CI config
