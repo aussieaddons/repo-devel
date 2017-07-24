@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<addon id="plugin.video.abc_iview" name="ABC iView" version="1.7.6-27-g2c53513">
+<addon id="plugin.video.abc_iview" name="ABC iView" version="1.7.6-28-g5a702a7">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
+    <import addon="script.module.aussieaddonscommon" />
     <import addon="script.common.plugin.cache" />
     <import addon="script.module.beautifulsoup" />
     <import addon="script.module.requests" />
     <import addon="script.module.issuereporter" />
-    <import addon="script.module.customsession" />
   </requires>
   <extension library="default.py" point="xbmc.python.pluginsource" provides="video">
     <provides>video</provides>
@@ -164,7 +164,8 @@
 
 [B]Version v1.1.0[/B]
 - Initial version
-</news><news>[B]Version v1.7.6-27-g2c53513[/B]
+</news><news>[B]Version v1.7.6-28-g5a702a7[/B]
+- Use aussie add-ons common module
 - Use customsession module
 - Validate categories
 - Remove automatic time/timezone calculation, small cleanup
