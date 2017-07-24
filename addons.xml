@@ -342,14 +342,160 @@
 [B]Version v0.5.0[/B]
 - Initial version
 </news></extension>
-</addon><addon id="plugin.video.abc_iview" name="ABC iView" version="1.7.6-27-g2c53513">
+</addon><addon id="script.module.customsession" name="Aussie Addons Custom Session" provider-name="Aussie Addons" version="1.0.1-1-gce510e7">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
+  </requires>
+  <extension library="lib" point="xbmc.python.module" />
+  <extension point="xbmc.addon.metadata">
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+    <summary>Custom Requests Session for Aussie Addons</summary>
+    <description>Custom Requests Session for Aussie Addons</description>
+    <website />
+    <source>https://github.com/xbmc-catchuptv-au/script.module.customsession</source>
+    <platform>all</platform>
+    <license>GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007</license>
+  <news>[B]Version v1.0.1[/B]
+- Fix undefined name
+  
+[B]Version v1.0.0[/B]
+- Initial version
+</news><news>[B]Version v1.0.1-1-gce510e7[/B]
+- Add Travis CI config
+
+[B]Version v1.0.1[/B]
+
+[B]Version v1.0.0[/B]
+- Initial version
+</news></extension>
+</addon><addon id="plugin.video.plus7" name="Plus7" provider-name="Andy Botting" version="3.1.1-27-g0df08a1">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0" />
+    <import addon="script.module.drmhelper" />
+    <import addon="script.module.issuereporter" />
+    <import addon="script.module.requests" />
+  </requires>
+  <extension library="default.py" point="xbmc.python.pluginsource" provides="video">
+    <provides>video</provides>
+  </extension>
+  <extension library="default.py" point="xbmc.addon.metadata">
+    <summary>Plus7 addon by Andy Botting</summary>
+    <description>PLUS7 offers video streaming of full length episodes as seen on Seven, 7TWO and other content partners - just hit the play button and you can watch high quality, full screen videos straightaway without having to wait for downloads.</description>
+    <provides>video</provides>
+    <platform>all</platform>
+  <news>[B]Version v3.1.1-27-g0df08a1[/B]
+- Update README
+- Update utils for flake8 compatibility, remove version file
+- Add new higher resolution icon
+- Add Travis CI config
+- Use external drmhelper and issuereporter, flake8, live fix
+- Update README.markdown
+- Fix subtitles not working
+- Use MP4 streams for non DRM protected content
+- Update README.markdown
+- Fix undefined variable
+- Remove unneeded log
+- Set default postcode
+- Android api unreliable with urllib2.
+- Place live tv above genres
+- Add sorting by genre, add live streams
+- Allow for missing cdm folder
+- small fixes
+- Add support to download Widevine modules
+- Add DASH DRM support
+
+[B]Version v3.1.1[/B]
+- Disable compatibility mode streaming method completely
+
+[B]Version v3.1.0[/B]
+- Switch to native streaming by default
+- Fix addon logging
+- Don't allow SystemExit and other user errors for issue reporting
+- Fix NoneType errors for empty episode listings
+- Fix compatibility streaming mode under Windows
+
+[B]Version v3.0.0[/B]
+- Fix handling of missing metadata
+- Filter out TV Snax programs
+- Fix typo for exception handling in issue log reporter
+- Change method of playing videos 
+
+[B]Version v2.8[/B]
+- Handle unicode chars in logging
+
+[B]Version v2.7[/B]
+- Better fault handling and log reports
+
+[B]Version v2.6[/B]
+- Better handling of missing data and fix for XBMC v12 program list
+
+[B]Version v2.5[/B]
+- another half ass fix
+
+[B]Version v2.4[/B]
+- Don't exclude programs 19 mins long
+- fix missing duration... sort of
+- Fix subtitles for XBMC v13
+- Properly rework subtitle support. Enable in settings
+- Added subtitles support to XBMC/Kodi
+- Add new icon
+
+[B]Version v2.3[/B]
+- Add issue reporting and clean up imports
+
+[B]Version v2.2[/B]
+- Use setting for deciding streaming method
+- Fix order of platform, to detect Android properly
+
+[B]Version v2.1[/B]
+- Initial version
+</news></extension>
+</addon><addon id="script.module.drmhelper" name="DRM Helper" provider-name="Glenn Guy" version="1.0.1-1-g297bcd8">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0" />
+  </requires>
+  <extension library="lib" point="xbmc.python.module" />
+  <extension point="xbmc.addon.metadata">
+    <assets>
+      <icon>icon.png</icon>
+      <fanart>fanart.jpg</fanart>
+    </assets>
+    <summary>Module to assist in aquiring components to enable DRM playback</summary>
+    <description>This module is required for add-ons which can play back Widevine DRM protected videos. It will fetch and install the required content decrypter module and single sample decrypter module from our repo, and attempt to install the required inputstream.adaptive add-on.</description>
+    <website />
+    <source>https://github.com/glennguy/script.module.drmhelper</source>
+    <platform>all</platform>
+    <license>GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007</license>
+  <news>[B]Version v1.0.1-1-g297bcd8[/B]
+- update icon
+
+[B]Version v1.0.1[/B]
+- Feature to get i.a from direct link and install.
+- Catch error when trying to install modules without i.a
+- Add error message for Kodi &lt; 17.0
+- Add config
+- Improvement in checking for inputstream.adaptive
+
+[B]Version v1.0.0[/B]
+- Initial version
+</news></extension>
+  <news>[B]Version 1.0.1[/B]
+- Feature to get i.a from direct link and install.
+- Catch error when trying to install modules without i.a
+- Add error message for Kodi &lt; 17.0
+- Add config
+- Improvement in checking for inputstream.adaptive
+</news>
+</addon><addon id="plugin.video.abc_iview" name="ABC iView" version="1.7.6-28-g5a702a7">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0" />
+    <import addon="script.module.aussieaddonscommon" />
     <import addon="script.common.plugin.cache" />
     <import addon="script.module.beautifulsoup" />
     <import addon="script.module.requests" />
     <import addon="script.module.issuereporter" />
-    <import addon="script.module.customsession" />
   </requires>
   <extension library="default.py" point="xbmc.python.pluginsource" provides="video">
     <provides>video</provides>
@@ -507,7 +653,8 @@
 
 [B]Version v1.1.0[/B]
 - Initial version
-</news><news>[B]Version v1.7.6-27-g2c53513[/B]
+</news><news>[B]Version v1.7.6-28-g5a702a7[/B]
+- Use aussie add-ons common module
 - Use customsession module
 - Validate categories
 - Remove automatic time/timezone calculation, small cleanup
@@ -581,150 +728,4 @@
 [B]Version v1.6.4[/B]
 - Initial version
 </news></extension>
-</addon><addon id="script.module.customsession" name="Aussie Addons Custom Session" provider-name="Aussie Addons" version="1.0.1-1-gce510e7">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0" />
-  </requires>
-  <extension library="lib" point="xbmc.python.module" />
-  <extension point="xbmc.addon.metadata">
-    <assets>
-      <icon>icon.png</icon>
-    </assets>
-    <summary>Custom Requests Session for Aussie Addons</summary>
-    <description>Custom Requests Session for Aussie Addons</description>
-    <website />
-    <source>https://github.com/xbmc-catchuptv-au/script.module.customsession</source>
-    <platform>all</platform>
-    <license>GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007</license>
-  <news>[B]Version v1.0.1[/B]
-- Fix undefined name
-  
-[B]Version v1.0.0[/B]
-- Initial version
-</news><news>[B]Version v1.0.1-1-gce510e7[/B]
-- Add Travis CI config
-
-[B]Version v1.0.1[/B]
-
-[B]Version v1.0.0[/B]
-- Initial version
-</news></extension>
-</addon><addon id="plugin.video.plus7" name="Plus7" provider-name="Andy Botting" version="3.1.1-27-g0df08a1">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0" />
-    <import addon="script.module.drmhelper" />
-    <import addon="script.module.issuereporter" />
-    <import addon="script.module.requests" />
-  </requires>
-  <extension library="default.py" point="xbmc.python.pluginsource" provides="video">
-    <provides>video</provides>
-  </extension>
-  <extension library="default.py" point="xbmc.addon.metadata">
-    <summary>Plus7 addon by Andy Botting</summary>
-    <description>PLUS7 offers video streaming of full length episodes as seen on Seven, 7TWO and other content partners - just hit the play button and you can watch high quality, full screen videos straightaway without having to wait for downloads.</description>
-    <provides>video</provides>
-    <platform>all</platform>
-  <news>[B]Version v3.1.1-27-g0df08a1[/B]
-- Update README
-- Update utils for flake8 compatibility, remove version file
-- Add new higher resolution icon
-- Add Travis CI config
-- Use external drmhelper and issuereporter, flake8, live fix
-- Update README.markdown
-- Fix subtitles not working
-- Use MP4 streams for non DRM protected content
-- Update README.markdown
-- Fix undefined variable
-- Remove unneeded log
-- Set default postcode
-- Android api unreliable with urllib2.
-- Place live tv above genres
-- Add sorting by genre, add live streams
-- Allow for missing cdm folder
-- small fixes
-- Add support to download Widevine modules
-- Add DASH DRM support
-
-[B]Version v3.1.1[/B]
-- Disable compatibility mode streaming method completely
-
-[B]Version v3.1.0[/B]
-- Switch to native streaming by default
-- Fix addon logging
-- Don't allow SystemExit and other user errors for issue reporting
-- Fix NoneType errors for empty episode listings
-- Fix compatibility streaming mode under Windows
-
-[B]Version v3.0.0[/B]
-- Fix handling of missing metadata
-- Filter out TV Snax programs
-- Fix typo for exception handling in issue log reporter
-- Change method of playing videos 
-
-[B]Version v2.8[/B]
-- Handle unicode chars in logging
-
-[B]Version v2.7[/B]
-- Better fault handling and log reports
-
-[B]Version v2.6[/B]
-- Better handling of missing data and fix for XBMC v12 program list
-
-[B]Version v2.5[/B]
-- another half ass fix
-
-[B]Version v2.4[/B]
-- Don't exclude programs 19 mins long
-- fix missing duration... sort of
-- Fix subtitles for XBMC v13
-- Properly rework subtitle support. Enable in settings
-- Added subtitles support to XBMC/Kodi
-- Add new icon
-
-[B]Version v2.3[/B]
-- Add issue reporting and clean up imports
-
-[B]Version v2.2[/B]
-- Use setting for deciding streaming method
-- Fix order of platform, to detect Android properly
-
-[B]Version v2.1[/B]
-- Initial version
-</news></extension>
-</addon><addon id="script.module.drmhelper" name="DRM Helper" provider-name="Glenn Guy" version="1.0.1-1-g297bcd8">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0" />
-  </requires>
-  <extension library="lib" point="xbmc.python.module" />
-  <extension point="xbmc.addon.metadata">
-    <assets>
-      <icon>icon.png</icon>
-      <fanart>fanart.jpg</fanart>
-    </assets>
-    <summary>Module to assist in aquiring components to enable DRM playback</summary>
-    <description>This module is required for add-ons which can play back Widevine DRM protected videos. It will fetch and install the required content decrypter module and single sample decrypter module from our repo, and attempt to install the required inputstream.adaptive add-on.</description>
-    <website />
-    <source>https://github.com/glennguy/script.module.drmhelper</source>
-    <platform>all</platform>
-    <license>GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007</license>
-  <news>[B]Version v1.0.1-1-g297bcd8[/B]
-- update icon
-
-[B]Version v1.0.1[/B]
-- Feature to get i.a from direct link and install.
-- Catch error when trying to install modules without i.a
-- Add error message for Kodi &lt; 17.0
-- Add config
-- Improvement in checking for inputstream.adaptive
-
-[B]Version v1.0.0[/B]
-- Initial version
-</news></extension>
-  <news>[B]Version 1.0.1[/B]
-- Feature to get i.a from direct link and install.
-- Catch error when trying to install modules without i.a
-- Add error message for Kodi &lt; 17.0
-- Add config
-- Improvement in checking for inputstream.adaptive
-</news>
 </addon></addons>
