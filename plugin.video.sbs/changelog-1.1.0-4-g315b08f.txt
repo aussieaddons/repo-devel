@@ -1,22 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<addon id="plugin.video.sbs" name="SBS On Demand" provider-name="Aussie Add-ons" version="1.1.0-4-g315b08f">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0" />
-    <import addon="script.module.aussieaddonscommon" />
-    <import addon="script.module.requests" />
-    <import addon="script.common.plugin.cache" />
-    <import addon="script.module.beautifulsoup" />
-    <import addon="script.module.issuereporter" />
-  </requires>
-  <extension library="default.py" point="xbmc.python.pluginsource" provides="video">
-    <provides>video</provides>
-  </extension>
-  <extension library="default.py" point="xbmc.addon.metadata">
-    <summary>SBS On Demand by Aussie Add-ons</summary>
-    <description>SBS On Demand provides free, unlimited streaming of TV shows, films and events. Watch full episodes of your favourite SBS shows online when you want.</description>
-    <provides>video</provides>
-    <platform>all</platform>
-  <news>[B]Version v1.1.0-4-g315b08f[/B]
+[B]Version v1.1.0-4-g315b08f[/B]
 - Fix missing requirement
 - Code cleanups, use common modules and update metadata
 - Update README.markdown
@@ -68,5 +50,3 @@
 
 [B]Version v1.0.0[/B]
 - Initial version
-</news></extension>
-</addon>
