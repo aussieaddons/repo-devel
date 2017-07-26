@@ -732,10 +732,36 @@
 [B]Version v1.6.4[/B]
 - Initial version
 </news></extension>
-</addon><addon id="plugin.video.sbs" name="SBS On Demand" provider-name="Aussie Add-ons" version="1.1.0-3-g52505cb">
+</addon><addon id="script.module.aussieaddonscommon" name="Aussie Add-ons Common" provider-name="Aussie Add-ons" version="1.0.0-1-g0bcdb00">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.issuereporter" />
+  </requires>
+  <extension library="lib" point="xbmc.python.module" />
+  <extension point="xbmc.addon.metadata">
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+    <summary>Common functions for Aussie Add-ons</summary>
+    <description>Common functions for Aussie Add-ons</description>
+    <website />
+    <source>https://github.com/xbmc-catchuptv-au/script.module.aussieaddonscommon</source>
+    <platform>all</platform>
+    <license>GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007</license>
+  <news>[B]Version v1.0.0[/B]
+- Initial version
+</news><news>[B]Version v1.0.0-1-g0bcdb00[/B]
+- Fix requirements and flake8 updates
+
+[B]Version v1.0.0[/B]
+- Initial version
+</news></extension>
+</addon><addon id="plugin.video.sbs" name="SBS On Demand" provider-name="Aussie Add-ons" version="1.1.0-4-g315b08f">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
     <import addon="script.module.aussieaddonscommon" />
+    <import addon="script.module.requests" />
     <import addon="script.common.plugin.cache" />
     <import addon="script.module.beautifulsoup" />
     <import addon="script.module.issuereporter" />
@@ -748,7 +774,8 @@
     <description>SBS On Demand provides free, unlimited streaming of TV shows, films and events. Watch full episodes of your favourite SBS shows online when you want.</description>
     <provides>video</provides>
     <platform>all</platform>
-  <news>[B]Version v1.1.0-3-g52505cb[/B]
+  <news>[B]Version v1.1.0-4-g315b08f[/B]
+- Fix missing requirement
 - Code cleanups, use common modules and update metadata
 - Update README.markdown
 
@@ -796,31 +823,6 @@
 - Sort programs alphabetically
 - Don't filter out some programs
 - Update Github issue API
-
-[B]Version v1.0.0[/B]
-- Initial version
-</news></extension>
-</addon><addon id="script.module.aussieaddonscommon" name="Aussie Add-ons Common" provider-name="Aussie Add-ons" version="1.0.0-1-g0bcdb00">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0" />
-    <import addon="script.module.requests" />
-    <import addon="script.module.issuereporter" />
-  </requires>
-  <extension library="lib" point="xbmc.python.module" />
-  <extension point="xbmc.addon.metadata">
-    <assets>
-      <icon>icon.png</icon>
-    </assets>
-    <summary>Common functions for Aussie Add-ons</summary>
-    <description>Common functions for Aussie Add-ons</description>
-    <website />
-    <source>https://github.com/xbmc-catchuptv-au/script.module.aussieaddonscommon</source>
-    <platform>all</platform>
-    <license>GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007</license>
-  <news>[B]Version v1.0.0[/B]
-- Initial version
-</news><news>[B]Version v1.0.0-1-g0bcdb00[/B]
-- Fix requirements and flake8 updates
 
 [B]Version v1.0.0[/B]
 - Initial version
