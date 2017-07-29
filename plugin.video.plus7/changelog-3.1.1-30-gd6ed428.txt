@@ -1,23 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<addon id="plugin.video.plus7" name="Plus7" provider-name="Andy Botting" version="3.1.1-30-gd6ed428">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0" />
-    <import addon="script.module.aussieaddonscommon" />
-    <import addon="script.module.issuereporter" />
-    <import addon="script.module.requests" />
-    <import addon="script.module.drmhelper" optional="true" />
-  </requires>
-  <extension library="default.py" point="xbmc.python.pluginsource" provides="video">
-    <provides>video</provides>
-  </extension>
-  <extension library="default.py" point="xbmc.addon.metadata">
-    <summary>Plus7 by Aussie Add-ons</summary>
-    <description>PLUS7 offers video streaming of full length episodes as seen on Seven, 7TWO and other content partners - just hit the play button and you can watch high quality, full screen videos straightaway without having to wait for downloads.</description>
-    <website>http://aussieaddons.com/addons/plus7/</website>
-    <source>https://github.com/xbmc-catchuptv-au/plugin.video.plus7</source>
-    <provides>video</provides>
-    <platform>all</platform>
-  <news>[B]Version v3.1.1-30-gd6ed428[/B]
+[B]Version v3.1.1-30-gd6ed428[/B]
 - Update Travis CI token
 - Update metadata
 - Use aussie add-ons common module
@@ -82,5 +63,3 @@
 
 [B]Version v2.2[/B]
 - Initial version
-</news></extension>
-</addon>
