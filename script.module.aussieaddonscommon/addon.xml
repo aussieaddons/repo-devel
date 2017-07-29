@@ -1,9 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<addon id="script.module.aussieaddonscommon" name="Aussie Add-ons Common" provider-name="Aussie Add-ons" version="1.0.0-1-g0bcdb00">
+<addon id="script.module.aussieaddonscommon" name="Aussie Add-ons Common" provider-name="Aussie Add-ons" version="1.0.0-2-g239a894">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
     <import addon="script.module.requests" />
-    <import addon="script.module.issuereporter" />
   </requires>
   <extension library="lib" point="xbmc.python.module" />
   <extension point="xbmc.addon.metadata">
@@ -12,13 +11,13 @@
     </assets>
     <summary>Common functions for Aussie Add-ons</summary>
     <description>Common functions for Aussie Add-ons</description>
-    <website />
     <source>https://github.com/xbmc-catchuptv-au/script.module.aussieaddonscommon</source>
     <platform>all</platform>
     <license>GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007</license>
   <news>[B]Version v1.0.0[/B]
 - Initial version
-</news><news>[B]Version v1.0.0-1-g0bcdb00[/B]
+</news><news>[B]Version v1.0.0-2-g239a894[/B]
+- Include issue reporter and utils enhancements
 - Fix requirements and flake8 updates
 
 [B]Version v1.0.0[/B]
