@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<addon id="script.module.drmhelper" name="DRM Helper" provider-name="Glenn Guy" version="1.0.1-1-g297bcd8">
+<addon id="script.module.drmhelper" name="DRM Helper" provider-name="Glenn Guy" version="1.0.1-2-g6822d91">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
   </requires>
@@ -15,7 +15,8 @@
     <source>https://github.com/glennguy/script.module.drmhelper</source>
     <platform>all</platform>
     <license>GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007</license>
-  <news>[B]Version v1.0.1-1-g297bcd8[/B]
+  <news>[B]Version v1.0.1-2-g6822d91[/B]
+- Update broken inputstream.adaptive zip links
 - update icon
 
 [B]Version v1.0.1[/B]
