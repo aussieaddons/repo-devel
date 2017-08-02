@@ -337,33 +337,6 @@
 [B]Version v1.0.0[/B]
 - Initial version
 </news>
-</addon><addon id="script.module.aussieaddonscommon" name="Aussie Add-ons Common" provider-name="Aussie Add-ons" version="1.0.0-5-g1618d98">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0" />
-    <import addon="script.module.requests" />
-  </requires>
-  <extension library="lib" point="xbmc.python.module" />
-  <extension point="xbmc.addon.metadata">
-    <assets>
-      <icon>icon.png</icon>
-    </assets>
-    <summary>Common functions for Aussie Add-ons</summary>
-    <description>Common functions for Aussie Add-ons</description>
-    <source>https://github.com/xbmc-catchuptv-au/script.module.aussieaddonscommon</source>
-    <platform>all</platform>
-    <license>GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007</license>
-  <news>[B]Version v1.0.0[/B]
-- Initial version
-</news><news>[B]Version v1.0.0-5-g1618d98[/B]
-- Rework version number handling and other fixes
-- Refactoring
-- Update exception handling
-- Include issue reporter and utils enhancements
-- Fix requirements and flake8 updates
-
-[B]Version v1.0.0[/B]
-- Initial version
-</news></extension>
 </addon><addon id="plugin.video.plus7" name="Plus7" provider-name="Andy Botting" version="3.1.1-31-gc4d576d">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
@@ -710,6 +683,34 @@
 - Sort programs alphabetically
 - Don't filter out some programs
 - Update Github issue API
+
+[B]Version v1.0.0[/B]
+- Initial version
+</news></extension>
+</addon><addon id="script.module.aussieaddonscommon" name="Aussie Add-ons Common" provider-name="Aussie Add-ons" version="1.0.0-6-g2d3c4be">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0" />
+    <import addon="script.module.requests" />
+  </requires>
+  <extension library="lib" point="xbmc.python.module" />
+  <extension point="xbmc.addon.metadata">
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+    <summary>Common functions for Aussie Add-ons</summary>
+    <description>Common functions for Aussie Add-ons</description>
+    <source>https://github.com/xbmc-catchuptv-au/script.module.aussieaddonscommon</source>
+    <platform>all</platform>
+    <license>GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007</license>
+  <news>[B]Version v1.0.0[/B]
+- Initial version
+</news><news>[B]Version v1.0.0-6-g2d3c4be[/B]
+- Update github token again
+- Rework version number handling and other fixes
+- Refactoring
+- Update exception handling
+- Include issue reporter and utils enhancements
+- Fix requirements and flake8 updates
 
 [B]Version v1.0.0[/B]
 - Initial version
