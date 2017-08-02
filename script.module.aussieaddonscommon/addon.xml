@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<addon id="script.module.aussieaddonscommon" name="Aussie Add-ons Common" provider-name="Aussie Add-ons" version="1.0.0-3-gb0823c4">
+<addon id="script.module.aussieaddonscommon" name="Aussie Add-ons Common" provider-name="Aussie Add-ons" version="1.0.0-4-ge95a178">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
     <import addon="script.module.requests" />
@@ -16,7 +16,8 @@
     <license>GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007</license>
   <news>[B]Version v1.0.0[/B]
 - Initial version
-</news><news>[B]Version v1.0.0-3-gb0823c4[/B]
+</news><news>[B]Version v1.0.0-4-ge95a178[/B]
+- Refactoring
 - Update exception handling
 - Include issue reporter and utils enhancements
 - Fix requirements and flake8 updates
