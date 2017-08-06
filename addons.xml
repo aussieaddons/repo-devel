@@ -687,7 +687,7 @@
 [B]Version v1.0.0[/B]
 - Initial version
 </news></extension>
-</addon><addon id="script.module.aussieaddonscommon" name="Aussie Add-ons Common" provider-name="Aussie Add-ons" version="1.0.0-6-g2d3c4be">
+</addon><addon id="script.module.aussieaddonscommon" name="Aussie Add-ons Common" provider-name="Aussie Add-ons" version="1.0.0-7-gf67ce65">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
     <import addon="script.module.requests" />
@@ -704,7 +704,8 @@
     <license>GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007</license>
   <news>[B]Version v1.0.0[/B]
 - Initial version
-</news><news>[B]Version v1.0.0-6-g2d3c4be[/B]
+</news><news>[B]Version v1.0.0-7-gf67ce65[/B]
+- Filter out any non-str values in exc value args
 - Update github token again
 - Rework version number handling and other fixes
 - Refactoring
