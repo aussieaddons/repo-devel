@@ -608,7 +608,44 @@
 [B]Version v1.0.0[/B]
 - Initial version
 </news></extension>
-</addon><addon id="plugin.video.plus7" name="Plus7" provider-name="Aussie Add-ons" version="3.1.1-32-ga563e1b">
+</addon><addon id="script.module.aussieaddonscommon" name="Aussie Add-ons Common" provider-name="Aussie Add-ons" version="1.0.0-15-gaac0ee7">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0" />
+    <import addon="script.module.requests" />
+  </requires>
+  <extension library="lib" point="xbmc.python.module" />
+  <extension point="xbmc.addon.metadata">
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+    <summary>Common functions for Aussie Add-ons</summary>
+    <description>Common functions for Aussie Add-ons</description>
+    <source>https://github.com/xbmc-catchuptv-au/script.module.aussieaddonscommon</source>
+    <platform>all</platform>
+    <license>GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007</license>
+  <news>[B]Version v1.0.0[/B]
+- Initial version
+</news><news>[B]Version v1.0.0-15-gaac0ee7[/B]
+- Fix for showing error dialog for non-reportable errors
+- Fix traceback handling in error reports
+- Fix error message handling
+- Fix token handling
+- Another attempt at token
+- Hopefully last time
+- .. and again
+- Update reporting token again after it went missing
+- Filter out any non-str values in exc value args
+- Update github token again
+- Rework version number handling and other fixes
+- Refactoring
+- Update exception handling
+- Include issue reporter and utils enhancements
+- Fix requirements and flake8 updates
+
+[B]Version v1.0.0[/B]
+- Initial version
+</news></extension>
+</addon><addon id="plugin.video.plus7" name="Plus7" provider-name="Aussie Add-ons" version="3.1.1-33-gbcaa9b3">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
     <import addon="script.module.aussieaddonscommon" />
@@ -626,7 +663,8 @@
     <source>https://github.com/xbmc-catchuptv-au/plugin.video.plus7</source>
     <provides>video</provides>
     <platform>all</platform>
-  <news>[B]Version v3.1.1-32-ga563e1b[/B]
+  <news>[B]Version v3.1.1-33-gbcaa9b3[/B]
+- Prevent reports for program fetch errors (esp outside Australia)
 - Update provider name in addon.xml
 - Updates for common module, flake8 fixes, issue reporting updates
 - Update Travis CI token
@@ -689,43 +727,6 @@
 - Add new icon
 
 [B]Version v2.3[/B]
-- Initial version
-</news></extension>
-</addon><addon id="script.module.aussieaddonscommon" name="Aussie Add-ons Common" provider-name="Aussie Add-ons" version="1.0.0-15-gaac0ee7">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0" />
-    <import addon="script.module.requests" />
-  </requires>
-  <extension library="lib" point="xbmc.python.module" />
-  <extension point="xbmc.addon.metadata">
-    <assets>
-      <icon>icon.png</icon>
-    </assets>
-    <summary>Common functions for Aussie Add-ons</summary>
-    <description>Common functions for Aussie Add-ons</description>
-    <source>https://github.com/xbmc-catchuptv-au/script.module.aussieaddonscommon</source>
-    <platform>all</platform>
-    <license>GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007</license>
-  <news>[B]Version v1.0.0[/B]
-- Initial version
-</news><news>[B]Version v1.0.0-15-gaac0ee7[/B]
-- Fix for showing error dialog for non-reportable errors
-- Fix traceback handling in error reports
-- Fix error message handling
-- Fix token handling
-- Another attempt at token
-- Hopefully last time
-- .. and again
-- Update reporting token again after it went missing
-- Filter out any non-str values in exc value args
-- Update github token again
-- Rework version number handling and other fixes
-- Refactoring
-- Update exception handling
-- Include issue reporter and utils enhancements
-- Fix requirements and flake8 updates
-
-[B]Version v1.0.0[/B]
 - Initial version
 </news></extension>
 </addon></addons>
