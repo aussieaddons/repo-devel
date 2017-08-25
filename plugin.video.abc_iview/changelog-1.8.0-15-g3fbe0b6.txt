@@ -1,28 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<addon id="plugin.video.abc_iview" name="ABC iView" provider-name="Aussie Add-ons" version="1.8.0-15-g3fbe0b6">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0" />
-    <import addon="script.module.aussieaddonscommon" />
-    <import addon="script.common.plugin.cache" />
-    <import addon="script.module.beautifulsoup" />
-    <import addon="script.module.requests" />
-  </requires>
-  <extension library="default.py" point="xbmc.python.pluginsource" provides="video">
-    <provides>video</provides>
-  </extension>
-  <extension library="default.py" point="xbmc.addon.metadata">
-    <assets>
-      <icon>icon.png</icon>
-      <fanart>fanart.jpg</fanart>
-    </assets>
-    <summary>ABC iView by Aussie Add-ons</summary>
-    <description>iView offers full-length programs as seen on ABC TV, and iView originals ranging from arts to anime. Programs are added every day; most programs are available for 14 days. You must be located in Australia to access content. NOTE: This will count towards your Internet usage quota.</description>
-    <website>http://aussieaddons.com/addons/abc_iview</website>
-    <source>https://github.com/xbmc-catchuptv-au/plugin.video.abc_iview</source>
-    <provides>video</provides>
-    <platform>all</platform>
-    <license>GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007</license>
-  <news>[B]Version v1.8.0-15-g3fbe0b6[/B]
+[B]Version v1.8.0-15-g3fbe0b6[/B]
 - Add setting to toggle HD streams, remove subtitle setting
 - Update categories.py
 - Update parse.py
@@ -95,5 +71,3 @@
 
 [B]Version v1.6.6[/B]
 - Initial version
-</news></extension>
-</addon>
