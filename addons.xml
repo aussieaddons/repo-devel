@@ -731,7 +731,7 @@
 [B]Version v1.0.0[/B]
 - Initial version
 </news>
-</addon><addon id="script.module.pycaption" name="pycaption" provider-name="Aussie Add-ons" version="0.5.5-1-g8cb9fb7">
+</addon><addon id="script.module.pycaption" name="pycaption" provider-name="Aussie Add-ons" version="0.5.5-2-g9f49a9a">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
     <import addon="script.module.beautifulsoup4" />
@@ -747,7 +747,7 @@
     <source>https://github.com/pbs/pycaption</source>
     <website>https://github.com/pbs/pycaption</website>
     <license>Apache 2.0</license>
-  <news>[B]Version v0.5.5-1-g8cb9fb7[/B]
+  <news>[B]Version v0.5.5-2-g9f49a9a[/B]
 - Ignore cues with missing content
 
 [B]Version v0.5.5[/B]
