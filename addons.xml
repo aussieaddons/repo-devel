@@ -578,28 +578,6 @@
 [B]Version v2.4[/B]
 - Initial version
 </news></extension>
-</addon><addon id="script.module.pycaption" name="pycaption" provider-name="Aussie Add-ons" version="0.5.5-2-g9f49a9a">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0" />
-    <import addon="script.module.beautifulsoup4" />
-  </requires>
-  <extension library="lib" point="xbmc.python.module" />
-  <extension point="xbmc.addon.metadata">
-    <assets>
-      <icon>icon.png</icon>
-    </assets>
-    <summary>Python caption reading/writing module</summary>
-    <description>pycaption is a caption reading/writing module. Use one of the given Readers to read content into a CaptionSet object, and then use one of the Writers to output the CaptionSet into captions of your desired format.</description>
-    <platform>all</platform>
-    <source>https://github.com/pbs/pycaption</source>
-    <website>https://github.com/pbs/pycaption</website>
-    <license>Apache 2.0</license>
-  <news>[B]Version v0.5.5-2-g9f49a9a[/B]
-- Ignore cues with missing content
-
-[B]Version v0.5.5[/B]
-- Initial version
-</news></extension>
 </addon><addon id="script.module.drmhelper" name="DRM Helper" provider-name="Aussie Add-ons" version="1.0.6">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
@@ -753,6 +731,29 @@
 - Use minutes for older XBMC/Kodi versions
 
 [B]Version v1.6.8[/B]
+- Initial version
+</news></extension>
+</addon><addon id="script.module.pycaption" name="pycaption" provider-name="Aussie Add-ons" version="0.5.6">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0" />
+    <import addon="script.module.beautifulsoup4" />
+  </requires>
+  <extension library="lib" point="xbmc.python.module" />
+  <extension point="xbmc.addon.metadata">
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+    <summary>Python caption reading/writing module</summary>
+    <description>pycaption is a caption reading/writing module. Use one of the given Readers to read content into a CaptionSet object, and then use one of the Writers to output the CaptionSet into captions of your desired format.</description>
+    <platform>all</platform>
+    <source>https://github.com/pbs/pycaption</source>
+    <website>https://github.com/pbs/pycaption</website>
+    <license>Apache 2.0</license>
+  <news>[B]Version v0.5.6[/B]
+- Remove SCC and DFXP support for Python &lt; 2.7
+- Ignore cues with missing content
+
+[B]Version v0.5.5[/B]
 - Initial version
 </news></extension>
 </addon></addons>
