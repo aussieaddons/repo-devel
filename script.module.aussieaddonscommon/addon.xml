@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<addon id="script.module.aussieaddonscommon" name="Aussie Add-ons Common" provider-name="Aussie Add-ons" version="1.0.0-15-gaac0ee7">
+<addon id="script.module.aussieaddonscommon" name="Aussie Add-ons Common" provider-name="Aussie Add-ons" version="1.0.0-18-g0c98c08">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
     <import addon="script.module.requests" />
@@ -14,9 +14,9 @@
     <source>https://github.com/xbmc-catchuptv-au/script.module.aussieaddonscommon</source>
     <platform>all</platform>
     <license>GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007</license>
-  <news>[B]Version v1.0.0[/B]
-- Initial version
-</news><news>[B]Version v1.0.0-15-gaac0ee7[/B]
+  <news>[B]Version v1.0.0-18-g0c98c08[/B]
+- Show detected country to user on error
+- Use ipinfo for connection details and only allow AU reports
 - Fix for showing error dialog for non-reportable errors
 - Fix traceback handling in error reports
 - Fix error message handling
