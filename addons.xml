@@ -679,7 +679,7 @@
 [B]Version v0.5.0[/B]
 - Initial version
 </news></extension>
-</addon><addon id="plugin.video.nrl-live" name="NRL Live" provider-name="Aussie Add-ons" version="1.2.1-1-g7e78363">
+</addon><addon id="plugin.video.nrl-live" name="NRL Live" provider-name="Aussie Add-ons" version="1.2.2">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
     <import addon="script.common.plugin.cache" />
@@ -695,7 +695,7 @@
     <description>NRL Live allows subscribers of Telstra's NRL Digital Pass to stream live matches, match replays, and many other videos offered by this service.</description>
     <provides>video</provides>
     <platform>all</platform>
-  <news>[B]Version v1.2.1-1-g7e78363[/B]
+  <news>[B]Version v1.2.2[/B]
 - Handle current year round number after season end
 
 [B]Version v1.2.1[/B]
