@@ -1,4 +1,4 @@
-[B]Version v1.1.1-1-gaed78c0[/B]
+[B]Version v1.1.2[/B]
 - Fix TypeError: can only concatenate list (not "unicode") to list
 
 [B]Version v1.1.1[/B]
