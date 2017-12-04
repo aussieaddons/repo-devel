@@ -732,7 +732,7 @@
 [B]Version v0.0.2[/B]
 - Initial version
 </news></extension>
-</addon><addon id="plugin.video.afl-video" name="AFL Video" provider-name="Aussie Add-ons" version="1.8.3-10-g1f2a8b9">
+</addon><addon id="plugin.video.afl-video" name="AFL Video" provider-name="Aussie Add-ons" version="1.8.4">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
     <import addon="script.module.aussieaddonscommon" />
@@ -756,7 +756,7 @@
     <provides>video</provides>
     <platform>all</platform>
     <license>GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007</license>
-  <news>[B]Version v1.8.3-10-g1f2a8b9[/B]
+  <news>[B]Version v1.8.4[/B]
 - Remove unneeded functions and modules (#2587)
 - Update to new travis.yml
 - TypeError: object of type 'listreverseiterator' has no len()
