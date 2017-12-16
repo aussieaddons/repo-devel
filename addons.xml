@@ -749,7 +749,7 @@
 [B]Version v0.0.2[/B]
 - Initial version
 </news></extension>
-</addon><addon id="plugin.video.plus7" name="7plus" provider-name="Aussie Add-ons" version="3.3.2-2-g3b94455">
+</addon><addon id="plugin.video.plus7" name="7plus" provider-name="Aussie Add-ons" version="3.3.2-3-gb58e699">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
     <import addon="script.common.plugin.cache" />
@@ -769,7 +769,8 @@
     <source>https://github.com/xbmc-catchuptv-au/plugin.video.plus7</source>
     <provides>video</provides>
     <platform>all</platform>
-  <news>[B]Version v3.3.2-2-g3b94455[/B]
+  <news>[B]Version v3.3.2-3-gb58e699[/B]
+- workaround for ip addresses with no postcode
 - Update addons.xml
 - Initial work for converting to 7plus
 
@@ -833,9 +834,6 @@
 - Handle unicode chars in logging
 
 [B]Version v2.7[/B]
-- Better fault handling and log reports
-
-[B]Version v2.6[/B]
 - Initial version
 </news></extension>
 </addon></addons>
