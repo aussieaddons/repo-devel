@@ -749,7 +749,7 @@
 [B]Version v0.0.2[/B]
 - Initial version
 </news></extension>
-</addon><addon id="plugin.video.plus7" name="7plus" provider-name="Aussie Add-ons" version="3.3.2-3-gb58e699">
+</addon><addon id="plugin.video.plus7" name="7plus" provider-name="Aussie Add-ons" version="3.3.2-4-g07afab9">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
     <import addon="script.common.plugin.cache" />
@@ -762,14 +762,16 @@
   <extension library="default.py" point="xbmc.python.pluginsource" provides="video">
     <provides>video</provides>
   </extension>
+  <extension library="service.py" point="xbmc.service" start="login" />
   <extension library="default.py" point="xbmc.addon.metadata">
-    <summary>Plus7 by Aussie Add-ons</summary>
-    <description>PLUS7 offers video streaming of full length episodes as seen on Seven, 7TWO and other content partners - just hit the play button and you can watch high quality, full screen videos straightaway without having to wait for downloads.</description>
+    <summary>7plus by Aussie Add-ons</summary>
+    <description>Watch full episodes of your favourite TV shows as seen on Seven, 7mate, 7TWO, 7flix and racing.com, live and free.</description>
     <website>http://aussieaddons.com/addons/plus7/</website>
     <source>https://github.com/xbmc-catchuptv-au/plugin.video.plus7</source>
     <provides>video</provides>
     <platform>all</platform>
-  <news>[B]Version v3.3.2-3-gb58e699[/B]
+  <news>[B]Version v3.3.2-4-g07afab9[/B]
+- Add new thumbnail request handler, update metadata and travis CI config
 - workaround for ip addresses with no postcode
 - Update addons.xml
 - Initial work for converting to 7plus
