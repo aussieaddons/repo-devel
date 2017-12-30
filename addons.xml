@@ -749,7 +749,7 @@
 [B]Version v0.0.2[/B]
 - Initial version
 </news></extension>
-</addon><addon id="plugin.video.plus7" name="7plus" provider-name="Aussie Add-ons" version="3.3.2-5-g0061125">
+</addon><addon id="plugin.video.plus7" name="7plus" provider-name="Aussie Add-ons" version="3.3.2-6-g715cef8">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
     <import addon="script.common.plugin.cache" />
@@ -770,7 +770,10 @@
     <source>https://github.com/xbmc-catchuptv-au/plugin.video.plus7</source>
     <provides>video</provides>
     <platform>all</platform>
-  <news>[B]Version v4.0.1[/B]
+  <news>[B]Version v3.3.2-6-g715cef8[/B]
+- Update README
+
+[B]Version v4.0.1[/B]
 - Fix travis CI config
 
 [B]Version v4.0.0[/B]
