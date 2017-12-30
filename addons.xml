@@ -749,7 +749,7 @@
 [B]Version v0.0.2[/B]
 - Initial version
 </news></extension>
-</addon><addon id="plugin.video.plus7" name="7plus" provider-name="Aussie Add-ons" version="3.3.2-4-g07afab9">
+</addon><addon id="plugin.video.plus7" name="7plus" provider-name="Aussie Add-ons" version="3.3.2-5-g0061125">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
     <import addon="script.common.plugin.cache" />
@@ -770,7 +770,10 @@
     <source>https://github.com/xbmc-catchuptv-au/plugin.video.plus7</source>
     <provides>video</provides>
     <platform>all</platform>
-  <news>[B]Version v4.0.0[/B]
+  <news>[B]Version v4.0.1[/B]
+- Fix travis CI config
+
+[B]Version v4.0.0[/B]
 - Add new thumbnail request handler, update metadata and travis CI config
 - workaround for ip addresses with no postcode
 - Update addons.xml
@@ -833,9 +836,6 @@
 - Change method of playing videos 
 
 [B]Version v2.8[/B]
-- Handle unicode chars in logging
-
-[B]Version v2.7[/B]
 - Initial version
 </news></extension>
 </addon></addons>
