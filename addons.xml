@@ -770,7 +770,7 @@
     <source>https://github.com/xbmc-catchuptv-au/plugin.video.plus7</source>
     <provides>video</provides>
     <platform>all</platform>
-  <news>[B]Version v3.3.2-4-g07afab9[/B]
+  <news>[B]Version v4.0.0[/B]
 - Add new thumbnail request handler, update metadata and travis CI config
 - workaround for ip addresses with no postcode
 - Update addons.xml
