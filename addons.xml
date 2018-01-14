@@ -11,31 +11,7 @@
       <platform>all</platform>
    </extension>
 </addon>
-<addon id="plugin.video.bigpond-movies" name="Bigpond Movies" provider-name="Glenn Guy" version="0.0.2-4-g713dc2c">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0" />
-    <import addon="script.module.requests" />
-    <import addon="script.module.beautifulsoup4" />
-    <import addon="script.module.drmhelper" />
-    <import addon="script.common.plugin.cache" />
-  </requires>
-  <extension library="default.py" point="xbmc.python.pluginsource" provides="video">
-    <provides>video</provides>
-  </extension>
-  <extension library="default.py" point="xbmc.addon.metadata">
-    <summary>Bigpong Movies add-on</summary>
-    <description>Access everything that Telstra's Bigpond Movies has to offer</description>
-    <provides>video</provides>
-    <platform>all</platform>
-  <news>[B]Version v0.0.2-4-g713dc2c[/B]
-- Remove wvhelper, add drmhelper dependency
-- Improvements to wvhelper, tidy up code.
-- Remove incorrect import
-
-[B]Version v0.0.1[/B]
-- Initial version
-</news></extension>
-</addon><addon id="script.module.issuereporter" name="Aussie Addons Issue Reporter" provider-name="Aussie Addons" version="1.0.0-1-gc46ed8e">
+<addon id="script.module.issuereporter" name="Aussie Addons Issue Reporter" provider-name="Aussie Addons" version="1.0.0-1-gc46ed8e">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
   </requires>
@@ -873,6 +849,32 @@
 - Update README.md
 
 [B]Version v0.0.2[/B]
+- Initial version
+</news></extension>
+</addon><addon id="plugin.video.bigpond-movies" name="Bigpond Movies" provider-name="Glenn Guy" version="0.0.2-5-g8f99660">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0" />
+    <import addon="script.module.aussieaddonscommon" />
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.drmhelper" />
+    <import addon="script.module.requests" />
+    <import addon="script.common.plugin.cache" />
+  </requires>
+  <extension library="default.py" point="xbmc.python.pluginsource" provides="video">
+    <provides>video</provides>
+  </extension>
+  <extension library="default.py" point="xbmc.addon.metadata">
+    <summary>Bigpong Movies add-on</summary>
+    <description>Access everything that Telstra's Bigpond Movies has to offer</description>
+    <provides>video</provides>
+    <platform>all</platform>
+  <news>[B]Version v0.0.2-5-g8f99660[/B]
+- Major update
+- Remove wvhelper, add drmhelper dependency
+- Improvements to wvhelper, tidy up code.
+- Remove incorrect import
+
+[B]Version v0.0.1[/B]
 - Initial version
 </news></extension>
 </addon></addons>
