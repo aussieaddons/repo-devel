@@ -789,7 +789,7 @@
 [B]Version v1.0.0[/B]
 - Initial version
 </news></extension>
-</addon><addon id="plugin.video.afl-video" name="AFL Video" provider-name="Aussie Add-ons" version="1.8.4-2-gda5611d">
+</addon><addon id="plugin.video.afl-video" name="AFL Video" provider-name="Aussie Add-ons" version="1.8.4-3-g0e698c1">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
     <import addon="script.module.aussieaddonscommon" />
@@ -813,7 +813,8 @@
     <provides>video</provides>
     <platform>all</platform>
     <license>GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007</license>
-  <news>[B]Version v1.8.4-2-gda5611d[/B]
+  <news>[B]Version v1.8.4-3-g0e698c1[/B]
+- Handle outdated favourites links (#2594)
 - Add AFLW content, fix UnboundLocalError issue  (#2593)
 - Improve m3u8 parsing, fixes live matches
 
@@ -879,12 +880,6 @@
 - Fix SSL erros
 
 [B]Version v1.7.1[/B]
-- Remove current round from 2016
-- NAB Challenge now JLT. Renamed and added new rounds
-- Fix for 'zero length field name in format' on Python &lt; 2.7
-- Update README.md
-
-[B]Version v1.7.0[/B]
 - Initial version
 </news></extension>
 </addon></addons>
