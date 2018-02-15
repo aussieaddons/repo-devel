@@ -837,25 +837,6 @@
 [B]Version v1.7.1[/B]
 - Initial version
 </news></extension>
-</addon><addon id="plugin.video.cricketaustralia" name="Cricket Australia" provider-name="Aussie Add-ons" version="0.0.1">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0" />
-    <import addon="script.module.aussieaddonscommon" />
-    <import addon="script.module.drmhelper" />
-  </requires>
-  <extension library="addon.py" point="xbmc.python.pluginsource" provides="video">
-    <provides>video</provides>
-  </extension>
-  <extension library="addon.py" point="xbmc.addon.metadata">
-    <summary>Cricket Australia by Aussie Add-ons</summary>
-    <description>Watch live Cricket matches provided by Cricket Australia.</description>
-    <website>http://aussieaddons.com/addons/cricket/</website>
-    <source>https://github.com/aussieaddons/plugin.video.cricketaustralia</source>
-    <provides>video</provides>
-    <platform>all</platform>
-  <news>[B]Version v0.0.1[/B]
-- Initial version
-</news></extension>
 </addon><addon id="plugin.video.nrl-live" name="NRL Live" provider-name="Aussie Add-ons" version="1.2.3-1-g09d1e0b">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
@@ -935,6 +916,28 @@
 - update ooyalahelper
 
 [B]Version v1.0.0[/B]
+- Initial version
+</news></extension>
+</addon><addon id="plugin.video.cricketaustralia" name="Cricket Australia" provider-name="Aussie Add-ons" version="0.0.1-1-g7db11fd">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0" />
+    <import addon="script.module.aussieaddonscommon" />
+    <import addon="script.module.drmhelper" />
+  </requires>
+  <extension library="addon.py" point="xbmc.python.pluginsource" provides="video">
+    <provides>video</provides>
+  </extension>
+  <extension library="addon.py" point="xbmc.addon.metadata">
+    <summary>Cricket Australia by Aussie Add-ons</summary>
+    <description>Watch live Cricket matches provided by Cricket Australia.</description>
+    <website>http://aussieaddons.com/addons/cricket/</website>
+    <source>https://github.com/aussieaddons/plugin.video.cricketaustralia</source>
+    <provides>video</provides>
+    <platform>all</platform>
+  <news>[B]Version v0.0.1-1-g7db11fd[/B]
+- Include on-demand clips and DRM helper magic
+
+[B]Version v0.0.1[/B]
 - Initial version
 </news></extension>
 </addon></addons>
