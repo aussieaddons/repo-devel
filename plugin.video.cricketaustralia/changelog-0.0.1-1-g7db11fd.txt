@@ -1,0 +1,5 @@
+[B]Version v0.0.1-1-g7db11fd[/B]
+- Include on-demand clips and DRM helper magic
+
+[B]Version v0.0.1[/B]
+- Initial version
