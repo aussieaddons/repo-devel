@@ -848,7 +848,7 @@
 [B]Version v0.0.1[/B]
 - Initial version
 </news></extension>
-</addon><addon id="plugin.video.plus7" name="7plus" provider-name="Aussie Add-ons" version="4.0.2">
+</addon><addon id="plugin.video.plus7" name="7plus" provider-name="Aussie Add-ons" version="4.0.2-1-gea670cc">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
     <import addon="script.common.plugin.cache" />
@@ -863,13 +863,20 @@
   </extension>
   <extension library="service.py" point="xbmc.service" start="login" />
   <extension library="default.py" point="xbmc.addon.metadata">
+    <assets>
+      <icon>icon.png</icon>
+      <fanart>fanart.jpg</fanart>
+    </assets>
     <summary>7plus by Aussie Add-ons</summary>
     <description>Watch full episodes of your favourite TV shows as seen on Seven, 7mate, 7TWO, 7flix and racing.com, live and free.</description>
     <website>http://aussieaddons.com/addons/plus7/</website>
     <source>https://github.com/xbmc-catchuptv-au/plugin.video.plus7</source>
     <provides>video</provides>
     <platform>all</platform>
-  <news>[B]Version v4.0.2[/B]
+  <news>[B]Version v4.0.2-1-gea670cc[/B]
+- Add fanart and update metadata
+
+[B]Version v4.0.2[/B]
 - Update README
 
 [B]Version v4.0.1[/B]
@@ -932,12 +939,6 @@
 - Fix compatibility streaming mode under Windows
 
 [B]Version v3.0.0[/B]
-- Fix handling of missing metadata
-- Filter out TV Snax programs
-- Fix typo for exception handling in issue log reporter
-- Change method of playing videos 
-
-[B]Version v2.8[/B]
 - Initial version
 </news></extension>
 </addon></addons>
