@@ -865,7 +865,7 @@
 [B]Version v1.7.1[/B]
 - Initial version
 </news></extension>
-</addon><addon id="plugin.video.nrl-live" name="NRL Live" provider-name="Aussie Add-ons" version="1.2.4-4-g0d80c0c">
+</addon><addon id="plugin.video.nrl-live" name="NRL Live" provider-name="Aussie Add-ons" version="1.2.5">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
     <import addon="script.common.plugin.cache" />
@@ -881,7 +881,7 @@
     <description>NRL Live allows subscribers of Telstra's NRL Digital Pass to stream live matches, match replays, and many other videos offered by this service.</description>
     <provides>video</provides>
     <platform>all</platform>
-  <news>[B]Version v1.2.4-4-g0d80c0c[/B]
+  <news>[B]Version v1.2.5[/B]
 - Rudimentary implementation of live matches
 - Fix greyed out settings in Krypton, revert removing first run setting
 - Remove firstrun setting
