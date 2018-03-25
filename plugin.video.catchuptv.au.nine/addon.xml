@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<addon id="plugin.video.catchuptv.au.nine" name="9Now" provider-name="Aussie Add-ons" version="1.0.3">
+<addon id="plugin.video.catchuptv.au.nine" name="9Now" provider-name="Aussie Add-ons" version="1.0.3-1-g260849e">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
     <import addon="script.module.drmhelper" />
@@ -15,7 +15,10 @@
     <description>Watch live TV and catch up on all videos offered by the 9now service</description>
     <provides>video</provides>
     <platform>all</platform>
-  <news>[B]Version v1.0.3[/B]
+  <news>[B]Version v1.0.3-1-g260849e[/B]
+- fix handling of geoblocking errors
+
+[B]Version v1.0.3[/B]
 - Catch brightcove geoblocking errors (untested)
 - Update logo, catch and log JSON errors
 
