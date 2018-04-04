@@ -974,7 +974,7 @@
 [B]Version v1.0.0[/B]
 - Initial version
 </news></extension>
-</addon><addon id="plugin.video.olympicson7" name="OlympicsOn7" provider-name="Aussie Add-ons" version="1.0.2-1-ga34549d">
+</addon><addon id="plugin.video.olympicson7" name="OlympicsOn7" provider-name="Aussie Add-ons" version="1.0.3">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
     <import addon="script.common.plugin.cache" />
@@ -995,7 +995,7 @@
     <source>https://github.com/aussieaddons/plugin.video.olympicson7</source>
     <provides>video</provides>
     <platform>all</platform>
-  <news>[B]Version v1.0.2-1-ga34549d[/B]
+  <news>[B]Version v1.0.3[/B]
 - Fix error where SD and HD HLS urls were swapped
 
 [B]Version v1.0.2[/B]
