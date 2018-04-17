@@ -636,7 +636,7 @@
 - Initial version
 </news></extension>
 </addon>
-<addon id="plugin.video.afl-video" name="AFL Video" provider-name="Aussie Add-ons" version="1.8.6-1-g62f5646">
+<addon id="plugin.video.afl-video" name="AFL Video" provider-name="Aussie Add-ons" version="1.8.7">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
     <import addon="script.module.aussieaddonscommon" />
@@ -660,7 +660,7 @@
     <provides>video</provides>
     <platform>all</platform>
     <license>GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007</license>
-  <news>[B]Version v1.8.6-1-g62f5646[/B]
+  <news>[B]Version v1.8.7[/B]
 - Update to new auth process (#2601)
 
 [B]Version v1.8.6[/B]
