@@ -643,7 +643,7 @@
 [B]Version v1.1.0[/B]
 - Initial version
 </news></extension>
-</addon><addon id="plugin.video.afl-video" name="AFL Video" provider-name="Aussie Add-ons" version="1.8.7-1-g160345f">
+</addon><addon id="plugin.video.afl-video" name="AFL Video" provider-name="Aussie Add-ons" version="1.8.7-2-g478d782">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
     <import addon="script.module.aussieaddonscommon" />
@@ -667,7 +667,8 @@
     <provides>video</provides>
     <platform>all</platform>
     <license>GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007</license>
-  <news>[B]Version v1.8.7-1-g160345f[/B]
+  <news>[B]Version v1.8.7-2-g478d782[/B]
+- Feedback to user for upcoming (dummy) listings when selected (#2605)
 - Add 'All' category
 
 [B]Version v1.8.7[/B]
