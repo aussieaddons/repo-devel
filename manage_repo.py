@@ -168,7 +168,8 @@ def write_changelog_file(addon_location, changelog):
 
 
 def get_version(repo):
-    return repo.git.describe().lstrip('v')
+    return repo.git.describe(
+        ).lstrip('v').replace('-','~',1).replace('-', '+git', 1)
 
 
 def update_news(metadata_path, changelog):
