@@ -168,8 +168,7 @@ def write_changelog_file(addon_location, changelog):
 
 
 def get_version(repo):
-    return repo.git.describe(
-        ).lstrip('v').replace('-','~',1).replace('-', '+git', 1)
+    return repo.git.describe().lstrip('v')
 
 
 def update_news(metadata_path, changelog):
@@ -193,7 +192,7 @@ def update_version(metadata_path, version):
 
     tree = xml.etree.ElementTree.ElementTree(file=metadata_path)
     root = tree.getroot()
-    root.set('version', version)
+    root.set('version', version.replace('-','~',1).replace('-', '+git', 1))
 
     with io.BytesIO() as info_file:
         tree.write(info_file, encoding='UTF-8', xml_declaration=True)
