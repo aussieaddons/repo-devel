@@ -210,30 +210,7 @@
 [B]Version v0.0.1[/B]
 - Initial version
 </news></extension>
-</addon><addon id="plugin.video.cricketaustralia" name="Cricket Australia" provider-name="Aussie Add-ons" version="0.0.1-1-g7db11fd">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0" />
-    <import addon="script.module.aussieaddonscommon" />
-    <import addon="script.module.drmhelper" />
-  </requires>
-  <extension library="addon.py" point="xbmc.python.pluginsource" provides="video">
-    <provides>video</provides>
-  </extension>
-  <extension library="addon.py" point="xbmc.addon.metadata">
-    <summary>Cricket Australia by Aussie Add-ons</summary>
-    <description>Watch live Cricket matches provided by Cricket Australia.</description>
-    <website>http://aussieaddons.com/addons/cricket/</website>
-    <source>https://github.com/aussieaddons/plugin.video.cricketaustralia</source>
-    <provides>video</provides>
-    <platform>all</platform>
-  <news>[B]Version v0.0.1-1-g7db11fd[/B]
-- Include on-demand clips and DRM helper magic
-
-[B]Version v0.0.1[/B]
-- Initial version
-</news></extension>
-</addon>
-<addon id="script.module.aussieaddonscommon" name="Aussie Add-ons Common" provider-name="Aussie Add-ons" version="1.1.4">
+</addon><addon id="script.module.aussieaddonscommon" name="Aussie Add-ons Common" provider-name="Aussie Add-ons" version="1.1.4">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
     <import addon="script.module.requests" />
@@ -752,6 +729,30 @@
 - Update Github issue API
 
 [B]Version v1.0.0[/B]
+- Initial version
+</news></extension>
+</addon><addon id="plugin.video.cricketaustralia" name="Cricket Australia" provider-name="Aussie Add-ons" version="0.0.1~5+gitg6da9f43">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0" />
+    <import addon="script.module.aussieaddonscommon" />
+    <import addon="script.module.drmhelper" />
+  </requires>
+  <extension library="addon.py" point="xbmc.python.pluginsource" provides="video">
+    <provides>video</provides>
+  </extension>
+  <extension library="addon.py" point="xbmc.addon.metadata">
+    <summary>Cricket Australia by Aussie Add-ons</summary>
+    <description>Watch live Cricket matches provided by Cricket Australia.</description>
+    <website>http://aussieaddons.com/addons/cricket/</website>
+    <source>https://github.com/aussieaddons/plugin.video.cricketaustralia</source>
+    <provides>video</provides>
+    <platform>all</platform>
+  <news>[B]Version v0.0.1-5-g6da9f43[/B]
+- Fix to restore news video stream support
+- Website updates for 2018/19 season
+- Include on-demand clips and DRM helper magic
+
+[B]Version v0.0.1[/B]
 - Initial version
 </news></extension>
 </addon></addons>
