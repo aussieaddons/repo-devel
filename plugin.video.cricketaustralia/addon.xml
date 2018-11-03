@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<addon id="plugin.video.cricketaustralia" name="Cricket Australia" provider-name="Aussie Add-ons" version="0.0.1-1-g7db11fd">
+<addon id="plugin.video.cricketaustralia" name="Cricket Australia" provider-name="Aussie Add-ons" version="0.0.1~5+gitg6da9f43">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
     <import addon="script.module.aussieaddonscommon" />
@@ -15,7 +15,9 @@
     <source>https://github.com/aussieaddons/plugin.video.cricketaustralia</source>
     <provides>video</provides>
     <platform>all</platform>
-  <news>[B]Version v0.0.1-1-g7db11fd[/B]
+  <news>[B]Version v0.0.1-5-g6da9f43[/B]
+- Fix to restore news video stream support
+- Website updates for 2018/19 season
 - Include on-demand clips and DRM helper magic
 
 [B]Version v0.0.1[/B]

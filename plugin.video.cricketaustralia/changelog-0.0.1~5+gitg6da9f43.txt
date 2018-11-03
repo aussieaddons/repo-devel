@@ -1,0 +1,7 @@
+[B]Version v0.0.1-5-g6da9f43[/B]
+- Fix to restore news video stream support
+- Website updates for 2018/19 season
+- Include on-demand clips and DRM helper magic
+
+[B]Version v0.0.1[/B]
+- Initial version
