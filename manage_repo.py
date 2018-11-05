@@ -192,7 +192,7 @@ def update_version(metadata_path, version):
 
     tree = xml.etree.ElementTree.ElementTree(file=metadata_path)
     root = tree.getroot()
-    root.set('version', version.replace('-','~',1).replace('-', '_git', 1))
+    root.set('version', version.replace('-','~').replace('~', '-', 1))
 
     with io.BytesIO() as info_file:
         tree.write(info_file, encoding='UTF-8', xml_declaration=True)
