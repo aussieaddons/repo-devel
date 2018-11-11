@@ -681,7 +681,7 @@
 [B]Version v0.0.1[/B]
 - Initial version
 </news></extension>
-</addon><addon id="script.module.drmhelper" name="DRM Helper" provider-name="Aussie Add-ons" version="1.2.1-1~gb899118">
+</addon><addon id="script.module.drmhelper" name="DRM Helper" provider-name="Aussie Add-ons" version="1.2.2">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
   </requires>
@@ -697,7 +697,7 @@
     <source>https://github.com/aussieaddons/script.module.drmhelper</source>
     <platform>all</platform>
     <license>GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007</license>
-  <news>[B]Version v1.2.1-1-gb899118[/B]
+  <news>[B]Version v1.2.2[/B]
 - Don't fail after installing from repo
 
 [B]Version v1.2.1[/B]
