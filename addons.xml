@@ -684,25 +684,6 @@
 [B]Version v1.0.0[/B]
 - Initial version
 </news></extension>
-</addon><addon id="plugin.video.soccer-live" name="Soccer Live" provider-name="Aussie Add-ons" version="1.0.0">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0" />
-    <import addon="script.module.aussieaddonscommon" />
-    <import addon="script.module.beautifulsoup4" />
-    <import addon="script.module.requests" />
-    <import addon="script.common.plugin.cache" />
-  </requires>
-  <extension library="default.py" point="xbmc.python.pluginsource" provides="video">
-    <provides>video</provides>
-  </extension>
-  <extension library="default.py" point="xbmc.addon.metadata">
-    <summary>Soccer Live add-on</summary>
-    <description>Soccer Live is an unofficial add-on for Australian soccer content</description>
-    <provides>video</provides>
-    <platform>all</platform>
-  <news>[B]Version v0.9.9[/B]
-- Initial version
-</news></extension>
 </addon><addon id="script.module.drmhelper" name="DRM Helper" provider-name="Aussie Add-ons" version="1.2.4-1~ge0a1667">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
@@ -791,4 +772,26 @@
 - Initial version
 </news></extension>
   <news />
+</addon><addon id="plugin.video.soccer-live" name="Soccer Live" provider-name="Aussie Add-ons" version="1.0.0-1~ge80bda8">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0" />
+    <import addon="script.module.aussieaddonscommon" />
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.requests" />
+    <import addon="script.common.plugin.cache" />
+  </requires>
+  <extension library="default.py" point="xbmc.python.pluginsource" provides="video">
+    <provides>video</provides>
+  </extension>
+  <extension library="default.py" point="xbmc.addon.metadata">
+    <summary>Soccer Live add-on</summary>
+    <description>Soccer Live is an unofficial add-on for Australian soccer content</description>
+    <provides>video</provides>
+    <platform>all</platform>
+  <news>[B]Version v1.0.0-1-ge80bda8[/B]
+- Fix storing ticket incorrectly...
+
+[B]Version v0.9.9[/B]
+- Initial version
+</news></extension>
 </addon></addons>
