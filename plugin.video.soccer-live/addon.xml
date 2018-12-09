@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<addon id="plugin.video.soccer-live" name="Soccer Live" provider-name="Aussie Add-ons" version="1.0.1-4~gf0606e4">
+<addon id="plugin.video.soccer-live" name="Soccer Live" provider-name="Aussie Add-ons" version="1.0.1-5~g19e684f">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
     <import addon="script.module.aussieaddonscommon" />
@@ -16,7 +16,8 @@
     <description>Soccer Live is an unofficial add-on for Australian soccer content</description>
     <provides>video</provides>
     <platform>all</platform>
-  <news>[B]Version v1.0.1-4-gf0606e4[/B]
+  <news>[B]Version v1.0.1-5-g19e684f[/B]
+- Fix syntax mistake for showing prematch games
 - Finish mobile activation
 - Show live matches 10 minutes before scheduled start
 - Grey settings for mobile auth, reorder settings
