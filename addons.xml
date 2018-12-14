@@ -545,36 +545,6 @@
   <news>[B]Version v1.0.0[/B]
 - Initial version
 </news></extension>
-</addon><addon id="plugin.video.soccer-live" name="Soccer Live" provider-name="Aussie Add-ons" version="1.0.1-5~g19e684f">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0" />
-    <import addon="script.module.aussieaddonscommon" />
-    <import addon="script.module.beautifulsoup4" />
-    <import addon="script.module.requests" />
-    <import addon="script.module.warrant" />
-    <import addon="script.common.plugin.cache" />
-  </requires>
-  <extension library="default.py" point="xbmc.python.pluginsource" provides="video">
-    <provides>video</provides>
-  </extension>
-  <extension library="default.py" point="xbmc.addon.metadata">
-    <summary>Soccer Live add-on</summary>
-    <description>Soccer Live is an unofficial add-on for Australian soccer content</description>
-    <provides>video</provides>
-    <platform>all</platform>
-  <news>[B]Version v1.0.1-5-g19e684f[/B]
-- Fix syntax mistake for showing prematch games
-- Finish mobile activation
-- Show live matches 10 minutes before scheduled start
-- Grey settings for mobile auth, reorder settings
-- Add support for paid subscriptions, prepare mobile authorisation
-
-[B]Version v1.0.1[/B]
-- Fix storing ticket incorrectly...
-
-[B]Version v0.9.9[/B]
-- Initial version
-</news></extension>
 </addon><addon id="plugin.video.nrl-live" name="NRL Live" provider-name="Aussie Add-ons" version="1.3.4">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
@@ -812,6 +782,39 @@
 - Minor overhaul, using aussieaddonscommon
 
 [B]Version v1.1.0[/B]
+- Initial version
+</news></extension>
+</addon><addon id="plugin.video.soccer-live" name="Soccer Live" provider-name="Aussie Add-ons" version="1.1.1">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0" />
+    <import addon="script.module.aussieaddonscommon" />
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.warrant" />
+    <import addon="script.common.plugin.cache" />
+  </requires>
+  <extension library="default.py" point="xbmc.python.pluginsource" provides="video">
+    <provides>video</provides>
+  </extension>
+  <extension library="default.py" point="xbmc.addon.metadata">
+    <summary>Soccer Live add-on</summary>
+    <description>Soccer Live is an unofficial add-on for Australian soccer content</description>
+    <provides>video</provides>
+    <platform>all</platform>
+  <news>[B]Version v1.1.1[/B]
+- Update auth for new api location
+
+[B]Version v1.1.0[/B]
+- Fix syntax mistake for showing prematch games
+- Finish mobile activation
+- Show live matches 10 minutes before scheduled start
+- Grey settings for mobile auth, reorder settings
+- Add support for paid subscriptions, prepare mobile authorisation
+
+[B]Version v1.0.1[/B]
+- Fix storing ticket incorrectly...
+
+[B]Version v0.9.9[/B]
 - Initial version
 </news></extension>
 </addon></addons>
