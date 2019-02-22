@@ -700,7 +700,7 @@
 [B]Version v1.1.4[/B]
 - Initial version
 </news></extension>
-</addon><addon id="plugin.video.afl-video" name="AFL Video" provider-name="Aussie Add-ons" version="1.8.9">
+</addon><addon id="plugin.video.afl-video" name="AFL Video" provider-name="Aussie Add-ons" version="1.8.9-1~gd1d6ce3">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
     <import addon="script.module.aussieaddonscommon" />
@@ -724,7 +724,10 @@
     <provides>video</provides>
     <platform>all</platform>
     <license>GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007</license>
-  <news>[B]Version v1.8.9[/B]
+  <news>[B]Version v1.8.9-1-gd1d6ce3[/B]
+- travis.yml - update old github url to new org
+
+[B]Version v1.8.9[/B]
 - fix token 403 errors (#2610)
 
 [B]Version v1.8.8[/B]
@@ -800,9 +803,6 @@
 - Improve login process (#822)
 
 [B]Version v1.7.3[/B]
-- Support for paid subscriptions from afl.com.au
-
-[B]Version v1.7.2[/B]
 - Initial version
 </news></extension>
 </addon></addons>
