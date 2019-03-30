@@ -734,7 +734,7 @@
 [B]Version v1.7.5[/B]
 - Initial version
 </news></extension>
-</addon><addon id="script.module.drmhelper" name="DRM Helper" provider-name="Aussie Add-ons" version="1.2.7-4~g244f004">
+</addon><addon id="script.module.drmhelper" name="DRM Helper" provider-name="Aussie Add-ons" version="1.2.7-5~g4f7d03d">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
   </requires>
@@ -750,7 +750,8 @@
     <source>https://github.com/aussieaddons/script.module.drmhelper</source>
     <platform>all</platform>
     <license>GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007</license>
-  <news>[B]Version v1.2.7-4-g244f004[/B]
+  <news>[B]Version v1.2.7-5-g4f7d03d[/B]
+- Use arch lookup
 - Fix CDM path and some lint errors
 - Use xbmc cond vis UWP for Kodi 18
 - Major update for v2
@@ -823,13 +824,6 @@
 - update icon
 
 [B]Version v1.0.1[/B]
-- Feature to get i.a from direct link and install.
-- Catch error when trying to install modules without i.a
-- Add error message for Kodi &lt; 17.0
-- Add config
-- Improvement in checking for inputstream.adaptive
-
-[B]Version v1.0.0[/B]
 - Initial version
 </news></extension>
   <news />
