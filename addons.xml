@@ -734,7 +734,7 @@
 [B]Version v1.7.5[/B]
 - Initial version
 </news></extension>
-</addon><addon id="script.module.drmhelper" name="DRM Helper" provider-name="Aussie Add-ons" version="1.2.7-6~g1880fe1">
+</addon><addon id="script.module.drmhelper" name="DRM Helper" provider-name="Aussie Add-ons" version="1.2.7-7~ge378ba6">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
   </requires>
@@ -750,7 +750,8 @@
     <source>https://github.com/aussieaddons/script.module.drmhelper</source>
     <platform>all</platform>
     <license>GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007</license>
-  <news>[B]Version v1.2.7-6-g1880fe1[/B]
+  <news>[B]Version v1.2.7-7-ge378ba6[/B]
+- Stop keyerrors from arch lookup
 - Use arch lookup
 - Fix CDM path and some lint errors
 - Use xbmc cond vis UWP for Kodi 18
