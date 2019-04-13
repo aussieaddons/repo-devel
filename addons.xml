@@ -734,7 +734,7 @@
 [B]Version v1.7.5[/B]
 - Initial version
 </news></extension>
-</addon><addon id="script.module.drmhelper" name="DRM Helper" provider-name="Aussie Add-ons" version="1.2.7-13~gaf58c6a">
+</addon><addon id="script.module.drmhelper" name="DRM Helper" provider-name="Aussie Add-ons" version="1.2.7-14~gab93640">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
   </requires>
@@ -750,7 +750,8 @@
     <source>https://github.com/aussieaddons/script.module.drmhelper</source>
     <platform>all</platform>
     <license>GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007</license>
-  <news>[B]Version v1.2.7-13-gaf58c6a[/B]
+  <news>[B]Version v1.2.7-14-gab93640[/B]
+- Clean up platform detection and add logging for CDM paths
 - Show dialog when drm platform not supported
 - Add more tests
 - Fix changes lost from helper.py in 5ab7fd0
