@@ -734,7 +734,7 @@
 [B]Version v1.7.5[/B]
 - Initial version
 </news></extension>
-</addon><addon id="script.module.drmhelper" name="DRM Helper" provider-name="Aussie Add-ons" version="1.2.7-11~gd0d749e">
+</addon><addon id="script.module.drmhelper" name="DRM Helper" provider-name="Aussie Add-ons" version="1.2.7-13~gaf58c6a">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
   </requires>
@@ -750,7 +750,9 @@
     <source>https://github.com/aussieaddons/script.module.drmhelper</source>
     <platform>all</platform>
     <license>GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007</license>
-  <news>[B]Version v1.2.7-11-gd0d749e[/B]
+  <news>[B]Version v1.2.7-13-gaf58c6a[/B]
+- Show dialog when drm platform not supported
+- Add more tests
 - Fix changes lost from helper.py in 5ab7fd0
 - add xbmcbinaddons to cdm/ssd check
 - update arm cdm urls
@@ -825,10 +827,6 @@
 - Fix error in addon.xml
 
 [B]Version v1.0.2[/B]
-- Update broken inputstream.adaptive zip links
-- update icon
-
-[B]Version v1.0.1[/B]
 - Initial version
 </news></extension>
   <news />
