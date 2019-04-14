@@ -737,7 +737,7 @@
 [B]Version v1.0.0[/B]
 - Initial version
 </news></extension>
-</addon><addon id="script.module.drmhelper" name="DRM Helper" provider-name="Aussie Add-ons" version="1.2.7-20~gd2605a5">
+</addon><addon id="script.module.drmhelper" name="DRM Helper" provider-name="Aussie Add-ons" version="1.2.7-21~g20f5d0f">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
   </requires>
@@ -753,7 +753,8 @@
     <source>https://github.com/aussieaddons/script.module.drmhelper</source>
     <platform>all</platform>
     <license>GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007</license>
-  <news>[B]Version v1.2.7-20-gd2605a5[/B]
+  <news>[B]Version v1.2.7-21-g20f5d0f[/B]
+- Actually, add the new version of our travis script
 - Replace xbmc-catchuptv-au with aussieaddons and formatting for travis
 - Set py2.7 and Slack notification to travis build
 - Revert "Reduce CDM paths to just what we need"
