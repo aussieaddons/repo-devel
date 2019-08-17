@@ -744,7 +744,7 @@
 [B]Version v0.9.9[/B]
 - Initial version
 </news></extension>
-</addon><addon id="script.module.drmhelper" name="DRM Helper" provider-name="Aussie Add-ons" version="2.0.0-8~g7638906">
+</addon><addon id="script.module.drmhelper" name="DRM Helper" provider-name="Aussie Add-ons" version="2.0.0-9~gffe6b8f">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
     <import addon="script.module.future" />
@@ -761,7 +761,8 @@
     <source>https://github.com/aussieaddons/script.module.drmhelper</source>
     <platform>all</platform>
     <license>GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007</license>
-  <news>[B]Version v2.0.0-8-g7638906[/B]
+  <news>[B]Version v2.0.0-9-gffe6b8f[/B]
+- Fix rpi support, improve is_wv_drm_supported test
 - Add missing future dependency
 - minor fixes
 - Change source of widevinecdm, implement checking of cdm version
