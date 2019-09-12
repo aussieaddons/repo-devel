@@ -740,7 +740,7 @@
 - Initial version
 </news></extension>
   <news />
-</addon><addon id="plugin.video.afl-video" name="AFL Video" provider-name="Aussie Add-ons" version="1.9.2-4~g50da7ba">
+</addon><addon id="plugin.video.afl-video" name="AFL Video" provider-name="Aussie Add-ons" version="1.9.3">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
     <import addon="script.module.aussieaddonscommon" />
@@ -765,7 +765,7 @@
     <provides>video</provides>
     <platform>all</platform>
     <license>GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007</license>
-  <news>[B]Version v1.9.2-4-g50da7ba[/B]
+  <news>[B]Version v1.9.3[/B]
 - Update to 2020 auth
 - Fix travis config
 - travis-ci config update for notifications and lock in py27
