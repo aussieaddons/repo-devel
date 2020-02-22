@@ -845,7 +845,7 @@
 - Initial version
 </news></extension>
   <news />
-</addon><addon id="plugin.video.afl-video" name="AFL Video" provider-name="Aussie Add-ons" version="2.0.0-1~g166b5c2">
+</addon><addon id="plugin.video.afl-video" name="AFL Video" provider-name="Aussie Add-ons" version="2.0.1">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
     <import addon="script.module.aussieaddonscommon" />
@@ -872,7 +872,7 @@
     <provides>video</provides>
     <platform>all</platform>
     <license>GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007</license>
-  <news>[B]Version v2.0.0-1-g166b5c2[/B]
+  <news>[B]Version v2.0.1[/B]
 - Re-use python interpreter
 
 [B]Version v2.0.0[/B]
