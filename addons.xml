@@ -873,7 +873,7 @@
 [B]Version v1.7.9[/B]
 - Initial version
 </news></extension>
-</addon><addon id="plugin.video.abc_iview" name="ABC iView" provider-name="Aussie Add-ons" version="1.8.5-20~g5cc2b8c">
+</addon><addon id="plugin.video.abc_iview" name="ABC iView" provider-name="Aussie Add-ons" version="1.8.5-22~g0c3ed72">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
     <import addon="script.module.aussieaddonscommon" />
@@ -898,7 +898,8 @@
     <provides>video</provides>
     <platform>all</platform>
     <license>GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007</license>
-  <news>[B]Version v1.8.5-20-g5cc2b8c[/B]
+  <news>[B]Version v1.8.5-22-g0c3ed72[/B]
+- Remove past dependency (fixes error on libreelec)
 - Add collections to channels/categories
 - add excludes to tox
 - default to i.a for playback, show collections by default
