@@ -874,7 +874,7 @@
 [B]Version v1.8.0[/B]
 - Initial version
 </news></extension>
-</addon><addon id="plugin.video.abc_iview" name="ABC iView" provider-name="Aussie Add-ons" version="1.8.5-23~gec7d751">
+</addon><addon id="plugin.video.abc_iview" name="ABC iView" provider-name="Aussie Add-ons" version="1.8.5-31~gcf796b4">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
     <import addon="script.module.aussieaddonscommon" />
@@ -899,7 +899,15 @@
     <provides>video</provides>
     <platform>all</platform>
     <license>GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007</license>
-  <news>[B]Version v1.8.5-23-gec7d751[/B]
+  <news>[B]Version v1.8.5-31-gcf796b4[/B]
+- Remove unused variables
+- Correct fanart for live streams
+- Consistent art and compatibility with Kodi 19
+- Tidy up
+- Add tests for season folders
+- Force responses to 0.10.7
+- Make folders for additional seasons when available
+- Parse subtitle for shows in collections
 - Handle searches with zero results
 - Remove past dependency (fixes error on libreelec)
 - Add collections to channels/categories
@@ -962,26 +970,12 @@
 - Fix cookie issue
 - Fix typo
 - Code style fixes and re-add season/episode parsing
-- Revert to Kodi native stream handling
-- Add feature to choose stream quality
-- small fix for error in episode number counting
-- Switch to mobile API
 
 [B]Version v1.7.6[/B]
 - rename HTMLParser class
 - Fix for subtitles
 
 [B]Version v1.7.3[/B]
-- Update README
-- Attempt to ignore SSL errors on Python 2.7.9+
-
-[B]Version v1.7.2[/B]
-- Remove unset variable
-
-[B]Version v1.7.1[/B]
-- Roll back SSL fix due to breakage
-
-[B]Version v1.7.0[/B]
 - Initial version
 </news></extension>
 </addon></addons>
