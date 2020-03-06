@@ -883,7 +883,7 @@
 - Initial version
 </news></extension>
   <news />
-</addon><addon id="plugin.video.abc_iview" name="ABC iView" provider-name="Aussie Add-ons" version="1.8.5-32~g3661520">
+</addon><addon id="plugin.video.abc_iview" name="ABC iView" provider-name="Aussie Add-ons" version="1.8.5-33~g91312b9">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
     <import addon="script.module.aussieaddonscommon" />
@@ -908,7 +908,8 @@
     <provides>video</provides>
     <platform>all</platform>
     <license>GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007</license>
-  <news>[B]Version v1.8.5-32-g3661520[/B]
+  <news>[B]Version v1.8.5-33-g91312b9[/B]
+- Don't raise error if subtitles fail to download/parse
 - Look for 'extras' if there aren't any regular videos for a series
 - Remove unused variables
 - Correct fanart for live streams
@@ -977,13 +978,8 @@
 - Update README.markdown
 - Add 'high quality' streams where available
 - Fix for error caused by missing playlist info
-- Fix cookie issue
-- Fix typo
 
 [B]Version v1.7.6[/B]
-- rename HTMLParser class
-
-[B]Version v1.7.3[/B]
 - Initial version
 </news></extension>
 </addon></addons>
