@@ -897,7 +897,7 @@
 [B]Version v1.0.0[/B]
 - Initial version
 </news></extension>
-</addon><addon id="plugin.video.sbs" name="SBS On Demand" provider-name="Aussie Add-ons" version="1.1.6-7~g8fb1e48">
+</addon><addon id="plugin.video.sbs" name="SBS On Demand" provider-name="Aussie Add-ons" version="1.1.6-8~g34b2111">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
     <import addon="script.module.aussieaddonscommon" />
@@ -919,7 +919,8 @@
     <provides>video</provides>
     <platform>all</platform>
     <license>GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007</license>
-  <news>[B]Version v1.1.6-7-g8fb1e48[/B]
+  <news>[B]Version v1.1.6-8-g34b2111[/B]
+- Put total items/multi-page assignment in correct area
 - Multi-page
 - Fix 10 item limit, begin work on multiple pages
 - Only show 'Football Highlights' in sports genre
