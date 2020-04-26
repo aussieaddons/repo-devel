@@ -897,7 +897,7 @@
 [B]Version v1.0.0[/B]
 - Initial version
 </news></extension>
-</addon><addon id="plugin.video.sbs" name="SBS On Demand" provider-name="Aussie Add-ons" version="1.1.6-9~g12c9397">
+</addon><addon id="plugin.video.sbs" name="SBS On Demand" provider-name="Aussie Add-ons" version="1.1.6-10~gc963e86">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
     <import addon="script.module.aussieaddonscommon" />
@@ -919,7 +919,8 @@
     <provides>video</provides>
     <platform>all</platform>
     <license>GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007</license>
-  <news>[B]Version v1.1.6-9-g12c9397[/B]
+  <news>[B]Version v1.1.6-10-gc963e86[/B]
+- Fix next page showing when not applicable
 - All lists are now max 50 length
 - Put total items/multi-page assignment in correct area
 - Multi-page
