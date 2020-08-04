@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <addons><addon id="repository.aussieaddons-devel" name="Aussie Add-ons (development)" provider-name="Aussie Add-ons" version="1.0.0">
    <extension name="Aussie Add-ons Development Repository" point="xbmc.addon.repository">
-      <info compressed="false">http://aussieaddons.com/repository-devel/addons.xml</info>
-      <checksum>http://aussieaddons.com/repository-devel/addons.xml.md5</checksum>
-      <datadir zip="true">http://aussieaddons.com/repository-devel/</datadir>
+      <info compressed="false">https://aussieaddons.com/repository-devel/addons.xml</info>
+      <checksum>https://aussieaddons.com/repository-devel/addons.xml.md5</checksum>
+      <datadir zip="true">https://aussieaddons.com/repository-devel/</datadir>
    </extension>
    <extension point="xbmc.addon.metadata">
       <summary>Install Aussie Add-ons (development) plugins</summary>
@@ -44,7 +44,7 @@
     <summary>Custom Requests Session for Aussie Addons</summary>
     <description>Custom Requests Session for Aussie Addons</description>
     <website />
-    <source>https://github.com/xbmc-catchuptv-au/script.module.customsession</source>
+    <source>https://github.com/aussieaddons/script.module.customsession</source>
     <platform>all</platform>
     <license>GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007</license>
   <news>[B]Version v1.0.1[/B]
@@ -114,7 +114,7 @@
   <extension library="addon.py" point="xbmc.addon.metadata">
     <summary>Cricket Live by Aussie Add-ons</summary>
     <description>Watch live Cricket matches and other videos</description>
-    <website>http://aussieaddons.com/addons/cricket/</website>
+    <website>https://aussieaddons.com/addons/cricket/</website>
     <source>https://github.com/aussieaddons/plugin.video.cricketaustralia</source>
     <provides>video</provides>
     <platform>all</platform>
@@ -627,8 +627,8 @@
     </assets>
     <summary>AFL Video by Aussie Add-ons</summary>
     <description>Watch the latest AFL replays, news and match reports. Live streaming available with a valid AFL Live Pass</description>
-    <website>http://aussieaddons.com/addons/afl/</website>
-    <source>https://github.com/xbmc-catchuptv-au/plugin.video.afl-video</source>
+    <website>https://aussieaddons.com/addons/afl/</website>
+    <source>https://github.com/aussieaddons/plugin.video.afl-video</source>
     <disclaimer>This plugin is not affiliated with the AFL in any way.</disclaimer>
     <provides>video</provides>
     <platform>all</platform>
@@ -757,8 +757,8 @@
     </assets>
     <summary>ABC iView by Aussie Add-ons</summary>
     <description>iView offers full-length programs as seen on ABC TV, and iView originals ranging from arts to anime. Programs are added every day; most programs are available for 14 days. You must be located in Australia to access content. NOTE: This will count towards your Internet usage quota.</description>
-    <website>http://aussieaddons.com/addons/abc_iview</website>
-    <source>https://github.com/xbmc-catchuptv-au/plugin.video.abc_iview</source>
+    <website>https://aussieaddons.com/addons/abc_iview</website>
+    <source>https://github.com/aussieaddons/plugin.video.abc_iview</source>
     <provides>video</provides>
     <platform>all</platform>
     <license>GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007</license>
@@ -845,8 +845,8 @@
     </assets>
     <summary>SBS On Demand by Aussie Add-ons</summary>
     <description>SBS On Demand provides free, unlimited streaming of TV shows, films and events. Watch full episodes of your favourite SBS shows online when you want.</description>
-    <website>http://aussieaddons.com/addons/sbs/</website>
-    <source>https://github.com/xbmc-catchuptv-au/plugin.video.sbs</source>
+    <website>https://aussieaddons.com/addons/sbs/</website>
+    <source>https://github.com/aussieaddons/plugin.video.sbs</source>
     <provides>video</provides>
     <platform>all</platform>
     <license>GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007</license>
