@@ -891,7 +891,7 @@
     <provides>video</provides>
     <platform>all</platform>
     <license>GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007</license>
-  <news>[B]Version v2.0.8-2-g4af6715[/B]
+  <news>[B]Version v2.0.9[/B]
 - Fix external whitelist for tox and switch to py3
 - Use HTTPS for some Telstra URLs
 

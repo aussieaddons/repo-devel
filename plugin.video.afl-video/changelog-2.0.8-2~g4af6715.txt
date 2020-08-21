@@ -1,4 +1,4 @@
-[B]Version v2.0.8-2-g4af6715[/B]
+[B]Version v2.0.9[/B]
 - Fix external whitelist for tox and switch to py3
 - Use HTTPS for some Telstra URLs
 
