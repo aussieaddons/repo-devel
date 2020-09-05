@@ -1,7 +1,0 @@
-[B]Version v1.0.0-3-g603bb8f[/B]
-- Add error message for Kodi < 17.0
-- Add config
-- Improvement in checking for inputstream.adaptive
-
-[B]Version v1.0.0[/B]
-- Initial version

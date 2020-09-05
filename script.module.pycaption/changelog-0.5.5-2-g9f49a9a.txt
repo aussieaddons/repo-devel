@@ -1,5 +1,0 @@
-[B]Version v0.5.5-2-g9f49a9a[/B]
-- Ignore cues with missing content
-
-[B]Version v0.5.5[/B]
-- Initial version

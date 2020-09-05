@@ -1,5 +1,0 @@
-[B]Version v1.0.0-1-g0bcdb00[/B]
-- Fix requirements and flake8 updates
-
-[B]Version v1.0.0[/B]
-- Initial version

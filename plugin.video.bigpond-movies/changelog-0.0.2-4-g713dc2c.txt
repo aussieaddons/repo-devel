@@ -1,7 +1,0 @@
-[B]Version v0.0.2-4-g713dc2c[/B]
-- Remove wvhelper, add drmhelper dependency
-- Improvements to wvhelper, tidy up code.
-- Remove incorrect import
-
-[B]Version v0.0.1[/B]
-- Initial version

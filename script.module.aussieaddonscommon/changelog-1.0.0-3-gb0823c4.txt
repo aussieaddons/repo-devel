@@ -1,7 +1,0 @@
-[B]Version v1.0.0-3-gb0823c4[/B]
-- Update exception handling
-- Include issue reporter and utils enhancements
-- Fix requirements and flake8 updates
-
-[B]Version v1.0.0[/B]
-- Initial version

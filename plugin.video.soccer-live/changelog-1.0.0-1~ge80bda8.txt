@@ -1,5 +1,0 @@
-[B]Version v1.0.0-1-ge80bda8[/B]
-- Fix storing ticket incorrectly...
-
-[B]Version v0.9.9[/B]
-- Initial version

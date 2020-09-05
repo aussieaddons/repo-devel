@@ -1,9 +1,0 @@
-[B]Version v1.0.1-2-g31c9343[/B]
-- Grey settings for mobile auth, reorder settings
-- Add support for paid subscriptions, prepare mobile authorisation
-
-[B]Version v1.0.1[/B]
-- Fix storing ticket incorrectly...
-
-[B]Version v0.9.9[/B]
-- Initial version

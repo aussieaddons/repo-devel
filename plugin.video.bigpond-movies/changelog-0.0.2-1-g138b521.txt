@@ -1,5 +1,0 @@
-[B]Version v0.0.2-1-g138b521[/B]
-- Remove incorrect import
-
-[B]Version v0.0.1[/B]
-- Initial version

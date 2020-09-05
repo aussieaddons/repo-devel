@@ -1,6 +1,0 @@
-[B]Version v1.0.0-2-g93203b2[/B]
-- Add config
-- Improvement in checking for inputstream.adaptive
-
-[B]Version v1.0.0[/B]
-- Initial version

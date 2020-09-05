@@ -1,5 +1,0 @@
-[B]Version v1.0.0-1-gc25f979[/B]
-- Improvement in checking for inputstream.adaptive
-
-[B]Version v1.0.0[/B]
-- Initial version

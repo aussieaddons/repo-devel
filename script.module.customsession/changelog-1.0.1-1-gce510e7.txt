@@ -1,7 +1,0 @@
-[B]Version v1.0.1-1-gce510e7[/B]
-- Add Travis CI config
-
-[B]Version v1.0.1[/B]
-
-[B]Version v1.0.0[/B]
-- Initial version
