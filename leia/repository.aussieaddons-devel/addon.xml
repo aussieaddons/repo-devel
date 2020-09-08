@@ -2,14 +2,14 @@
 <addon id="repository.aussieaddons-devel" name="Aussie Add-ons (development)" provider-name="Aussie Add-ons" version="1.2.0">
   <extension point="xbmc.addon.repository" name="Aussie Add-ons Development Repository">
     <dir minversion="1.0.0">
-      <info compressed="false">https://aussieaddons.com/repository-devel/leia/addons.xml</info>
-      <checksum>https://aussieaddons.com/repository-devel/leia/addons.xml.md5</checksum>
-      <datadir zip="true">https://aussieaddons.com/repository-devel/leia/</datadir>
+      <info compressed="false">https://r.aussieaddons.com/repository-devel/leia/addons.xml</info>
+      <checksum>https://r.aussieaddons.com/repository-devel/leia/addons.xml.md5</checksum>
+      <datadir zip="true">https://r.aussieaddons.com/repository-devel/leia/</datadir>
     </dir>
     <dir minversion="18.9.701">
-      <info compressed="false">https://aussieaddons.com/repository-devel/matrix/addons.xml</info>
-      <checksum>https://aussieaddons.com/repository-devel/matrix/addons.xml.md5</checksum>
-      <datadir zip="true">https://aussieaddons.com/repository-devel/matrix/</datadir>
+      <info compressed="false">https://r.aussieaddons.com/repository-devel/matrix/addons.xml</info>
+      <checksum>https://r.aussieaddons.com/repository-devel/matrix/addons.xml.md5</checksum>
+      <datadir zip="true">https://r.aussieaddons.com/repository-devel/matrix/</datadir>
     </dir>
   </extension>
   <extension point="xbmc.addon.metadata">
