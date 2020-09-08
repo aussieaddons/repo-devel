@@ -200,7 +200,7 @@ def update_version(metadata_path, version, kodi_version=None):
     try:
         tree = xml.etree.ElementTree.ElementTree(file=metadata_path)
     except:
-        print metadata_path
+        print(metadata_path)
         raise
     root = tree.getroot()
     ver = version.replace('-','~').replace('~', '-', 1)
