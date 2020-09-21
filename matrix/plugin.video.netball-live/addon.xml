@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<addon id="plugin.video.netball-live" name="Netball Live" provider-name="Aussie Add-ons" version="1.4.3-2~g8d34283_leia">
+<addon id="plugin.video.netball-live" name="Netball Live" provider-name="Aussie Add-ons" version="1.4.3-2~g8d34283_matrix">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
     <import addon="script.module.aussieaddonscommon" />
