@@ -1,0 +1,8 @@
+[B]Version v1.2.0[/B]
+- Change to separate folder layout
+
+[B]Version v1.1.0[/B]
+- Use HTTPS for all URLs
+
+[B]Version v1.0.0[/B]
+- Initial version

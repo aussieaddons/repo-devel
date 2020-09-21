@@ -1,9 +1,0 @@
-[B]Version v0.0.2-6-g9b935db[/B]
-- small settings fix
-- Major update
-- Remove wvhelper, add drmhelper dependency
-- Improvements to wvhelper, tidy up code.
-- Remove incorrect import
-
-[B]Version v0.0.1[/B]
-- Initial version

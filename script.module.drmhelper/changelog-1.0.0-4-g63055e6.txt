@@ -1,8 +1,0 @@
-[B]Version v1.0.0-4-g63055e6[/B]
-- Catch error when trying to install modules without i.a
-- Add error message for Kodi < 17.0
-- Add config
-- Improvement in checking for inputstream.adaptive
-
-[B]Version v1.0.0[/B]
-- Initial version

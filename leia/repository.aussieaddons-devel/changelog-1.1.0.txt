@@ -1,0 +1,5 @@
+[B]Version v1.1.0[/B]
+- Use HTTPS for all URLs
+
+[B]Version v1.0.0[/B]
+- Initial version

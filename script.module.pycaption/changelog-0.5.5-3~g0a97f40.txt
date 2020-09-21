@@ -1,6 +1,0 @@
-[B]Version v0.5.5-3-g0a97f40[/B]
-- Update to pycaption 0.7.6
-- Ignore cues with missing content
-
-[B]Version v0.5.5[/B]
-- Initial version

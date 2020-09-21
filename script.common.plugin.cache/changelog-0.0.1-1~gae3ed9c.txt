@@ -1,5 +1,0 @@
-[B]Version v0.0.1-1-gae3ed9c[/B]
-- Add travis yml
-
-[B]Version v0.0.1[/B]
-- Initial version
