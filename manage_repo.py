@@ -85,11 +85,11 @@ METADATA_BASENAMES = (
     'fanart.jpg',
     'LICENSE.txt')
 BUILD_VERSIONS = {
-    'Nnnnnn':
+    'nnnnnn':
         {'python-api': '4.0.0'},
-    'Matrix':
+    'matrix':
         {'python-api': '3.0.0'},
-    'Leia':
+    'leia':
         {'python-api': None} #  do not alter
 }
 
