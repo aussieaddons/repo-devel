@@ -450,7 +450,6 @@ def create_repository(addon_locations, data_path, is_compressed, buildvers):
 
         # If addons.xml already exists, read it
         if os.path.isfile(info_path):
-            print info_path
             tree = xml.etree.ElementTree.ElementTree(file=info_path)
             root = tree.getroot()
         else:
@@ -460,9 +459,7 @@ def create_repository(addon_locations, data_path, is_compressed, buildvers):
         for addon_metadata in metadata:
             # Remove existing addon from doc
             for addon in root[:]:  # use copy to avoid iteration errors
-                print addon.attrib.get('id')
                 if addon.attrib.get('id') == addon_metadata.id:
-                    print "removing ver {0}".format(addon.attrib.get('version'))
                     root.remove(addon)
         for addon_metadata in metadata:
             tree = root.append(addon_metadata.root)
