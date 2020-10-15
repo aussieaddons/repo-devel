@@ -863,7 +863,7 @@
 [B]Version v0.0.1[/B]
 - Initial version
 </news></extension>
-</addon><addon id="plugin.video.sbs" name="SBS On Demand" provider-name="Aussie Add-ons" version="1.1.8-6~g8dbdbe9_leia">
+</addon><addon id="plugin.video.sbs" name="SBS On Demand" provider-name="Aussie Add-ons" version="1.1.8-8~g684f31c_leia">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
     <import addon="script.module.aussieaddonscommon" />
@@ -885,7 +885,9 @@
     <provides>video</provides>
     <platform>all</platform>
     <license>GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007</license>
-  <news>[B]Version v1.1.8-6-g8dbdbe9[/B]
+  <news>[B]Version v1.1.8-8-g684f31c[/B]
+- python 3.8 compatibility
+- Style fixes, fix some tests
 - Complete tests
 - Fix ValueError on occasional float duration
 - stop error on viewing 'continue watching' when not logged in
@@ -946,15 +948,11 @@
 - Added files via upload
 - Update comm.py
 - Enable subtitles in settings
-- Add support for subtitles
 
 [B]Version v1.0.8[/B]
 - Fix XBMC v12 thumbnail handling error
 
 [B]Version v1.0.7[/B]
-- Fix for handling duration with decimal point
-
-[B]Version v1.0.6[/B]
 - Initial version
 </news></extension>
 </addon></addons>
