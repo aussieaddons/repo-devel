@@ -266,7 +266,7 @@
 [B]Version v1.1.0[/B]
 - Initial version
 </news></extension>
-</addon><addon id="plugin.video.sbs" name="SBS On Demand" provider-name="Aussie Add-ons" version="1.1.8-9~ge2d3558_matrix">
+</addon><addon id="plugin.video.sbs" name="SBS On Demand" provider-name="Aussie Add-ons" version="1.1.8-10~gc4cd592_matrix">
   <requires>
     <import addon="xbmc.python" version="3.0.0" />
     <import addon="script.module.aussieaddonscommon" />
@@ -288,7 +288,8 @@
     <provides>video</provides>
     <platform>all</platform>
     <license>GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007</license>
-  <news>[B]Version v1.1.8-9-ge2d3558[/B]
+  <news>[B]Version v1.1.8-10-gc4cd592[/B]
+- don't keep addon object in module scope
 - Build for Leia and Matrix
 - python 3.8 compatibility
 - Style fixes, fix some tests
@@ -350,12 +351,8 @@
 - Ignore SSL errors on Python 2.7.9+
 - Add handling for absence of subtitle metadata
 - Added files via upload
-- Update comm.py
 
 [B]Version v1.0.8[/B]
-- Fix XBMC v12 thumbnail handling error
-
-[B]Version v1.0.7[/B]
 - Initial version
 </news></extension>
 </addon></addons>
