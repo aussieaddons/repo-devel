@@ -266,7 +266,7 @@
 [B]Version v1.1.0[/B]
 - Initial version
 </news></extension>
-</addon><addon id="plugin.video.sbs" name="SBS On Demand" provider-name="Aussie Add-ons" version="1.1.8-13~gff0eb9b_matrix">
+</addon><addon id="plugin.video.sbs" name="SBS On Demand" provider-name="Aussie Add-ons" version="1.1.9_matrix">
   <requires>
     <import addon="xbmc.python" version="3.0.0" />
     <import addon="script.module.aussieaddonscommon" />
@@ -288,7 +288,7 @@
     <provides>video</provides>
     <platform>all</platform>
     <license>GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007</license>
-  <news>[B]Version v1.1.8-13-gff0eb9b[/B]
+  <news>[B]Version v1.1.9[/B]
 - Update mobile app version to a supported value
 - Further fixes for Matrix
 - Fix problem with incorrectly parsed date
