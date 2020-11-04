@@ -860,7 +860,7 @@
 [B]Version v1.8.0[/B]
 - Initial version
 </news></extension>
-</addon><addon id="script.module.drmhelper" name="DRM Helper" provider-name="Aussie Add-ons" version="2.0.4-2~g23acd2c_leia">
+</addon><addon id="script.module.drmhelper" name="DRM Helper" provider-name="Aussie Add-ons" version="2.0.5_leia">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
     <import addon="script.module.future" />
@@ -877,7 +877,7 @@
     <source>https://github.com/aussieaddons/script.module.drmhelper</source>
     <platform>all</platform>
     <license>GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007</license>
-  <news>[B]Version v2.0.4-2-g23acd2c[/B]
+  <news>[B]Version v2.0.5[/B]
 - LOGNOTICE -&gt; LOGINFO
 - build leia and matrix
 
