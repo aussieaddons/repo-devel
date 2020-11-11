@@ -390,4 +390,22 @@
 - Initial version
 </news></extension>
   <news />
+</addon><addon id="script.module.warrant" name="Warrant" provider-name="Aussie Add-ons" version="1.0.0-1~g2dd6c42_matrix">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0" />
+    <import addon="script.module.dateutil" version="2.4.2" />
+    <import addon="script.module.six" version="1.9.0" />
+  </requires>
+  <extension library="lib" point="xbmc.python.module" />
+  <extension point="xbmc.addon.metadata">
+    <language />
+    <summary lang="en">Warrant for Python</summary>
+    <description lang="en">Packed for Kodi from https://github.com/capless/warrant</description>
+    <platform>all</platform>
+  <news>[B]Version v1.0.0-1-g2dd6c42[/B]
+- Update to build leia/matrix
+
+[B]Version v1.0.0[/B]
+- Initial version
+</news></extension>
 </addon></addons>
