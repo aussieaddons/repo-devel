@@ -1,0 +1,7 @@
+[B]Version v1.0.0-3-g46b6536[/B]
+- Update deploy.yml
+- Create deploy.yml - test run
+- Update to build leia/matrix
+
+[B]Version v1.0.0[/B]
+- Initial version
