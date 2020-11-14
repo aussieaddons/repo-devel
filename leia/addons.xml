@@ -928,7 +928,7 @@
 [B]Version v1.8.2[/B]
 - Initial version
 </news></extension>
-</addon><addon id="script.module.warrant" name="Warrant" version="1.0.0-7~gbbf36b8_leia" provider-name="Aussie Add-ons">
+</addon><addon id="script.module.warrant" name="Warrant" version="1.0.0-8~g640c2ee_leia" provider-name="Aussie Add-ons">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
     <import addon="script.module.dateutil" version="2.4.2" />
@@ -940,7 +940,8 @@
     <summary lang="en">Warrant for Python</summary>
     <description lang="en">Packed for Kodi from https://github.com/capless/warrant</description>
     <platform>all</platform>
-  <news>[B]Version v1.0.0-7-gbbf36b8[/B]
+  <news>[B]Version v1.0.0-8-g640c2ee[/B]
+- Deploy to prod repo
 - Update deploy.yml
 - switch to personal access token
 - Forgot to change TRAVIS_COMMIT_MSG to new

@@ -1,0 +1,11 @@
+[B]Version v1.0.0-8-g640c2ee[/B]
+- Deploy to prod repo
+- Update deploy.yml
+- switch to personal access token
+- Forgot to change TRAVIS_COMMIT_MSG to new
+- Fix syntax error and finish script for dev
+- Create deploy.yml - test run
+- Update to build leia/matrix
+
+[B]Version v1.0.0[/B]
+- Initial version
