@@ -390,7 +390,7 @@
 - Initial version
 </news></extension>
   <news />
-</addon><addon id="script.module.warrant" name="Warrant" version="1.0.0-11~g3c45f38_matrix" provider-name="Aussie Add-ons">
+</addon><addon id="script.module.warrant" name="Warrant" version="1.0.1-1~g528fbd7_matrix" provider-name="Aussie Add-ons">
   <requires>
     <import addon="xbmc.python" version="3.0.0" />
     <import addon="script.module.dateutil" version="2.4.2" />
@@ -402,7 +402,10 @@
     <summary lang="en">Warrant for Python</summary>
     <description lang="en">Packed for Kodi from https://github.com/capless/warrant</description>
     <platform>all</platform>
-  <news>[B]Version v1.0.1[/B]
+  <news>[B]Version v1.0.1-1-g528fbd7[/B]
+- Correctly get tag name
+
+[B]Version v1.0.1[/B]
 - Run on tag instead of release
 - fix dev commit msg again
 - fix dev commit msg, tidyup
