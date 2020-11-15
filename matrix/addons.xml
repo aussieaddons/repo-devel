@@ -402,7 +402,7 @@
     <summary lang="en">Warrant for Python</summary>
     <description lang="en">Packed for Kodi from https://github.com/capless/warrant</description>
     <platform>all</platform>
-  <news>[B]Version v1.0.0-11-g3c45f38[/B]
+  <news>[B]Version v1.0.1[/B]
 - Run on tag instead of release
 - fix dev commit msg again
 - fix dev commit msg, tidyup
