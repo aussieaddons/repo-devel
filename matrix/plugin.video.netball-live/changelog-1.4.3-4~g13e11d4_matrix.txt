@@ -1,4 +1,4 @@
-[B]Version v1.4.3-4-g13e11d4[/B]
+[B]Version v1.4.4[/B]
 - GitHub Actions config
 - Update icon.png
 - build leia and matrix
