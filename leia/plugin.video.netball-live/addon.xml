@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<addon id="plugin.video.netball-live" name="Netball Live" provider-name="Aussie Add-ons" version="1.4.3-3~g447d977_leia">
+<addon id="plugin.video.netball-live" name="Netball Live" provider-name="Aussie Add-ons" version="1.4.3-4~g13e11d4_leia">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
     <import addon="script.module.aussieaddonscommon" />
@@ -17,7 +17,8 @@
     <description>Netball Live allows you to use you Free Telstra Live Pass to stream live matches, match replays, and other videos offered by this service. Note: this add-on is not compatible with passes obtained via in-app purchase.</description>
     <provides>video</provides>
     <platform>all</platform>
-  <news>[B]Version v1.4.3-3-g447d977[/B]
+  <news>[B]Version v1.4.3-4-g13e11d4[/B]
+- GitHub Actions config
 - Update icon.png
 - build leia and matrix
 - Test new dev repo
@@ -71,6 +72,10 @@
 - Minor overhaul, using aussieaddonscommon
 
 [B]Version v1.1.0[/B]
+- List all replays, small fixes, flake8
+- Update README.md
+
+[B]Version v1.0.0[/B]
 - Initial version
 </news></extension>
 </addon>
