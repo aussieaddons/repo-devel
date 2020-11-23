@@ -1,4 +1,4 @@
-[B]Version v1.4.0-3-g74db7e3[/B]
+[B]Version v1.4.1[/B]
 - GitHub Actions config
 - missing test assertion
 - remove references to nrl in test data

@@ -994,7 +994,7 @@
     <description>Soccer Live is an unofficial add-on for Australian soccer content</description>
     <provides>video</provides>
     <platform>all</platform>
-  <news>[B]Version v1.4.0-3-g74db7e3[/B]
+  <news>[B]Version v1.4.1[/B]
 - GitHub Actions config
 - missing test assertion
 - remove references to nrl in test data
