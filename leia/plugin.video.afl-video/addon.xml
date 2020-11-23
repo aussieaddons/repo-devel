@@ -55,6 +55,32 @@
 - Remove state setting
 
 [B]Version v2.0.2[/B]
+- GitHub Actions config
+- Fix playback for older mp4 videos
+- Fix external whitelist for tox and switch to py3
+- Use HTTPS for some Telstra URLs
+- Stop error reports for intermittent 404s and token expired
+- Stop error reports from trying to play dummy titles
+- Fix for 'unable to locate source' in older videos
+- ooyala -&gt; brightcove (again)
+- Fix missing live streams
+- Use inputstream.adaptive for live streams...
+- Reinstate ooyala code
+- Remove state setting
+
+[B]Version v2.0.10[/B]
+- GitHub Actions config
+- Fix playback for older mp4 videos
+- Fix external whitelist for tox and switch to py3
+- Use HTTPS for some Telstra URLs
+- Stop error reports for intermittent 404s and token expired
+- Stop error reports from trying to play dummy titles
+- Fix for 'unable to locate source' in older videos
+- ooyala -&gt; brightcove (again)
+- Fix missing live streams
+- Use inputstream.adaptive for live streams...
+- Reinstate ooyala code
+- Remove state setting
 - Disable inputstream.adaptive for live streams
 - remove playback settings relating to widevine
 
