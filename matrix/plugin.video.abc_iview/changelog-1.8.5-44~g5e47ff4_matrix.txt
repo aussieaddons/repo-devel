@@ -1,4 +1,4 @@
-[B]Version v1.8.5-44-g5e47ff4[/B]
+[B]Version v2.0.0[/B]
 - Reinstate xbmc.python requirement
 - GitHub Actions config
 - Shorten urls for series/collection listitems

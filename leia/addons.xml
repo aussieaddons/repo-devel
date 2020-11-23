@@ -1211,7 +1211,7 @@
     <provides>video</provides>
     <platform>all</platform>
     <license>GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007</license>
-  <news>[B]Version v1.8.5-44-g5e47ff4[/B]
+  <news>[B]Version v2.0.0[/B]
 - Reinstate xbmc.python requirement
 - GitHub Actions config
 - Shorten urls for series/collection listitems
