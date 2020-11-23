@@ -1,4 +1,4 @@
-[B]Version v1.5.6-1-gd1e4ded[/B]
+[B]Version v1.5.7[/B]
 - GitHub Actions config
 
 [B]Version v1.5.6[/B]

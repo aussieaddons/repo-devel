@@ -16,7 +16,7 @@
     <description>NRL Live allows subscribers of Telstra's NRL Digital Pass to stream live matches, match replays, and many other videos offered by this service.</description>
     <provides>video</provides>
     <platform>all</platform>
-  <news>[B]Version v1.5.6-1-gd1e4ded[/B]
+  <news>[B]Version v1.5.7[/B]
 - GitHub Actions config
 
 [B]Version v1.5.6[/B]
