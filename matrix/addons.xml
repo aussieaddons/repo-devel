@@ -1233,7 +1233,7 @@
 [B]Version v1.0.0[/B]
 - Initial version
 </news></extension>
-</addon><addon id="plugin.video.soccer-live" name="Soccer Live" provider-name="Aussie Add-ons" version="1.4.1-1~g121c431_matrix">
+</addon><addon id="plugin.video.soccer-live" name="Soccer Live" provider-name="Aussie Add-ons" version="1.4.2_matrix">
   <requires>
     <import addon="xbmc.python" version="3.0.0" />
     <import addon="script.module.aussieaddonscommon" />
@@ -1251,7 +1251,7 @@
     <description>Soccer Live is an unofficial add-on for Australian soccer content</description>
     <provides>video</provides>
     <platform>all</platform>
-  <news>[B]Version v1.4.1-1-g121c431[/B]
+  <news>[B]Version v1.4.2[/B]
 - fix 19 compat issues
 
 [B]Version v1.4.1[/B]
