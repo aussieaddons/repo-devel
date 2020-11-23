@@ -1,4 +1,4 @@
-[B]Version v2.0.5-1-gff40c19[/B]
+[B]Version v2.0.6[/B]
 - GitHub Actions config
 
 [B]Version v2.0.5[/B]
