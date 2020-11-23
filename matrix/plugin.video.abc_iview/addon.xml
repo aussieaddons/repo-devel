@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<addon id="plugin.video.abc_iview" name="ABC iView" provider-name="Aussie Add-ons" version="1.8.5-43~g93e62c8_matrix">
+<addon id="plugin.video.abc_iview" name="ABC iView" provider-name="Aussie Add-ons" version="1.8.5-44~g5e47ff4_matrix">
   <requires>
+    <import addon="xbmc.python" version="3.0.0" />
     <import addon="script.module.aussieaddonscommon" />
     <import addon="script.module.requests" />
     <import addon="script.module.drmhelper" />
@@ -22,7 +23,8 @@
     <provides>video</provides>
     <platform>all</platform>
     <license>GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007</license>
-  <news>[B]Version v1.8.5-43-g93e62c8[/B]
+  <news>[B]Version v1.8.5-44-g5e47ff4[/B]
+- Reinstate xbmc.python requirement
 - GitHub Actions config
 - Shorten urls for series/collection listitems
 - Several changes
