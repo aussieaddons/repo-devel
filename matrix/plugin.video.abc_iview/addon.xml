@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<addon id="plugin.video.abc_iview" name="ABC iView" provider-name="Aussie Add-ons" version="1.8.5-43~g93e62c8_leia">
+<addon id="plugin.video.abc_iview" name="ABC iView" provider-name="Aussie Add-ons" version="1.8.5-43~g93e62c8_matrix">
   <requires>
     <import addon="script.module.aussieaddonscommon" />
     <import addon="script.module.requests" />
