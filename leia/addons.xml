@@ -1365,7 +1365,7 @@
 [B]Version v1.1.0[/B]
 - Initial version
 </news></extension>
-</addon><addon id="plugin.video.catchuptv.au.nine" name="9Now" provider-name="Aussie Add-ons" version="1.0.4-33~gd0c2934_leia">
+</addon><addon id="plugin.video.catchuptv.au.nine" name="9Now" provider-name="Aussie Add-ons" version="1.0.4-35~gcfd3642_leia">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
     <import addon="script.module.aussieaddonscommon" />
@@ -1383,7 +1383,9 @@
     <description>Watch live TV and catch up on all videos offered by the 9now service</description>
     <provides>video</provides>
     <platform>all</platform>
-  <news>[B]Version v1.0.4-33-gd0c2934[/B]
+  <news>[B]Version v1.0.4-35-gcfd3642[/B]
+- Use inputstream.adaptive for HLS
+- Fix python 3 tests
 - Fix cache
 - Style fixes
 - Add future dependency
