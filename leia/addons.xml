@@ -1198,7 +1198,7 @@
 [B]Version v1.1.0[/B]
 - Initial version
 </news></extension>
-</addon><addon id="plugin.video.afl-video" name="AFL Video" provider-name="Aussie Add-ons" version="2.0.10-1~gd186d57_leia">
+</addon><addon id="plugin.video.afl-video" name="AFL Video" provider-name="Aussie Add-ons" version="2.0.11_leia">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
     <import addon="script.module.aussieaddonscommon" />
@@ -1225,7 +1225,7 @@
     <provides>video</provides>
     <platform>all</platform>
     <license>GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007</license>
-  <news>[B]Version v2.0.10-1-gd186d57[/B]
+  <news>[B]Version v2.0.11[/B]
 - Kodi 19 inputstream.adaptive
 - GitHub Actions config
 - Fix playback for older mp4 videos
@@ -1255,6 +1255,7 @@
 - Remove state setting
 
 [B]Version v2.0.2[/B]
+- Kodi 19 inputstream.adaptive
 - GitHub Actions config
 - Fix playback for older mp4 videos
 - Fix external whitelist for tox and switch to py3
@@ -1267,6 +1268,9 @@
 - Use inputstream.adaptive for live streams...
 - Reinstate ooyala code
 - Remove state setting
+
+[B]Version v2.0.11[/B]
+- Kodi 19 inputstream.adaptive
 
 [B]Version v2.0.10[/B]
 - GitHub Actions config
