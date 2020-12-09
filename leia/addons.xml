@@ -1433,7 +1433,7 @@
 [B]Version v1.1[/B]
 - Initial version
 </news></extension>
-</addon><addon id="plugin.video.cricketaustralia" name="Cricket Live" provider-name="Aussie Add-ons" version="0.1.0-1~g11e14da_leia">
+</addon><addon id="plugin.video.cricketaustralia" name="Cricket Live" provider-name="Aussie Add-ons" version="0.1.1_leia">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
     <import addon="script.module.aussieaddonscommon" />
@@ -1450,7 +1450,7 @@
     <source>https://github.com/aussieaddons/plugin.video.cricketaustralia</source>
     <provides>video</provides>
     <platform>all</platform>
-  <news>[B]Version v0.1.0-1-g11e14da[/B]
+  <news>[B]Version v0.1.1[/B]
 - Fix for error on no live matches for Matrix
 
 [B]Version v0.1.0[/B]
