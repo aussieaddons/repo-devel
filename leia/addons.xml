@@ -1425,7 +1425,7 @@
 [B]Version v1.0.0[/B]
 - Initial version
 </news></extension>
-</addon><addon id="plugin.video.catchuptv.au.nine" name="9Now" provider-name="Aussie Add-ons" version="1.1.0-2~g1d06e9c_leia">
+</addon><addon id="plugin.video.catchuptv.au.nine" name="9Now" provider-name="Aussie Add-ons" version="1.1.1_leia">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
     <import addon="script.module.aussieaddonscommon" />
@@ -1443,7 +1443,7 @@
     <description>Watch live TV and catch up on all videos offered by the 9now service</description>
     <provides>video</provides>
     <platform>all</platform>
-  <news>[B]Version v1.1.0-2-g1d06e9c[/B]
+  <news>[B]Version v1.1.1[/B]
 - remove reassignment of play_item in play.py
 - safer handling of getting upnext info
 
