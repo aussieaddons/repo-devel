@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<addon id="plugin.video.nrl-live" name="NRL Live" provider-name="Aussie Add-ons" version="1.5.9_leia">
+<addon id="plugin.video.nrl-live" name="NRL Live" provider-name="Aussie Add-ons" version="1.5.9-1~g5ca5430_leia">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
     <import addon="script.common.plugin.cache" />
@@ -21,7 +21,10 @@
     <description>NRL Live allows subscribers of Telstra's NRL Digital Pass to stream live matches, match replays, and many other videos offered by this service.</description>
     <provides>video</provides>
     <platform>all</platform>
-  <news>[B]Version v1.5.9[/B]
+  <news>[B]Version v1.5.9-1-g5ca5430[/B]
+- add addon_version param to kodi urls
+
+[B]Version v1.5.9[/B]
 - fix live match listing for matrix
 
 [B]Version v1.5.8[/B]
