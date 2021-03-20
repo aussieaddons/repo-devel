@@ -1433,7 +1433,7 @@
 [B]Version v1.0.0[/B]
 - Initial version
 </news></extension>
-</addon><addon id="plugin.video.sbs" name="SBS On Demand" provider-name="Aussie Add-ons" version="1.1.9-3~g0c2553f_leia">
+</addon><addon id="plugin.video.sbs" name="SBS On Demand" provider-name="Aussie Add-ons" version="1.1.10_leia">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
     <import addon="script.module.aussieaddonscommon" />
@@ -1456,7 +1456,7 @@
     <provides>video</provides>
     <platform>all</platform>
     <license>GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007</license>
-  <news>[B]Version v1.1.9-3-g0c2553f[/B]
+  <news>[B]Version v1.1.10[/B]
 - Fix for missing subtitles...
 - Kodi 19 inputstream.adaptive
 - GitHub Actions config
@@ -1510,6 +1510,86 @@
 - Adapt error handling to new utils module (#1263)
 
 [B]Version v1.1.2[/B]
+- Fix for missing subtitles...
+- Kodi 19 inputstream.adaptive
+- GitHub Actions config
+- Update mobile app version to a supported value
+- Further fixes for Matrix
+- Fix problem with incorrectly parsed date
+- don't keep addon object in module scope
+- Build for Leia and Matrix
+- python 3.8 compatibility
+- Style fixes, fix some tests
+- Complete tests
+- Fix ValueError on occasional float duration
+- stop error on viewing 'continue watching' when not logged in
+- Fix playback on Kodi &lt; 18
+- Add UpNext support and add more details to program listings (#1290)
+- Add integrated SBS 'Favourites'
+- Allow for 'bad' metadata
+- Fix IndexError when accessing 'empty' programs
+- Fix small mistake in default
+- Add search capability
+- Fix next page showing when not applicable
+- All lists are now max 50 length
+- Put total items/multi-page assignment in correct area
+- Multi-page
+- Fix 10 item limit, begin work on multiple pages
+- Only show 'Football Highlights' in sports genre
+- Correctly flatten single series
+- reuselanguageinvoker
+- Add seasons plus other changes
+- Fix using old function signature in get_category
+- First run info dialog to inform of account requirements
+- Update for new API
+- Addon temporarily broken
+- Fix travis config
+- travis update for notifications, py27, and github org name
+- Widen bandwidth windows for stream selection
+- Add stream quality selection (#1280)
+- Fix missing quote in travis yaml (#1267)
+- Adapt error handling to new utils module (#1263)
+
+[B]Version v1.1.10[/B]
+- Fix for missing subtitles...
+- Kodi 19 inputstream.adaptive
+- GitHub Actions config
+- Update mobile app version to a supported value
+- Further fixes for Matrix
+- Fix problem with incorrectly parsed date
+- don't keep addon object in module scope
+- Build for Leia and Matrix
+- python 3.8 compatibility
+- Style fixes, fix some tests
+- Complete tests
+- Fix ValueError on occasional float duration
+- stop error on viewing 'continue watching' when not logged in
+- Fix playback on Kodi &lt; 18
+- Add UpNext support and add more details to program listings (#1290)
+- Add integrated SBS 'Favourites'
+- Allow for 'bad' metadata
+- Fix IndexError when accessing 'empty' programs
+- Fix small mistake in default
+- Add search capability
+- Fix next page showing when not applicable
+- All lists are now max 50 length
+- Put total items/multi-page assignment in correct area
+- Multi-page
+- Fix 10 item limit, begin work on multiple pages
+- Only show 'Football Highlights' in sports genre
+- Correctly flatten single series
+- reuselanguageinvoker
+- Add seasons plus other changes
+- Fix using old function signature in get_category
+- First run info dialog to inform of account requirements
+- Update for new API
+- Addon temporarily broken
+- Fix travis config
+- travis update for notifications, py27, and github org name
+- Widen bandwidth windows for stream selection
+- Add stream quality selection (#1280)
+- Fix missing quote in travis yaml (#1267)
+- Adapt error handling to new utils module (#1263)
 - Fixes unbound local errors
 - Revise subtitle metadata logic
 - Handle no subtitles available, remove subtitle setting
