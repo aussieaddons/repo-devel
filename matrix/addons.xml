@@ -1583,7 +1583,7 @@
 [B]Version v0.9.9[/B]
 - Initial version
 </news></extension>
-</addon><addon id="plugin.video.cricketaustralia" name="Cricket Live" provider-name="Aussie Add-ons" version="0.1.1-1~gb94c9ea_matrix">
+</addon><addon id="plugin.video.cricketaustralia" name="Cricket Live" provider-name="Aussie Add-ons" version="0.1.2_matrix">
   <requires>
     <import addon="xbmc.python" version="3.0.0" />
     <import addon="script.module.aussieaddonscommon" />
@@ -1600,7 +1600,7 @@
     <source>https://github.com/aussieaddons/plugin.video.cricketaustralia</source>
     <provides>video</provides>
     <platform>all</platform>
-  <news>[B]Version v0.1.1-1-gb94c9ea[/B]
+  <news>[B]Version v0.1.2[/B]
 - Addon version in Kodi url
 
 [B]Version v0.1.1[/B]
