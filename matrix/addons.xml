@@ -1396,7 +1396,7 @@
 [B]Version v1.0.0[/B]
 - Initial version
 </news></extension>
-</addon><addon id="plugin.video.abc_iview" name="ABC iView" provider-name="Aussie Add-ons" version="2.0.4-1~g121373e_matrix">
+</addon><addon id="plugin.video.abc_iview" name="ABC iView" provider-name="Aussie Add-ons" version="2.0.4-2~g258057d_matrix">
   <requires>
     <import addon="xbmc.python" version="3.0.0" />
     <import addon="script.module.aussieaddonscommon" />
@@ -1421,7 +1421,8 @@
     <provides>video</provides>
     <platform>all</platform>
     <license>GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007</license>
-  <news>[B]Version v2.0.4-1-g121373e[/B]
+  <news>[B]Version v2.0.4-2-g258057d[/B]
+- Bad system clock now causes 401
 - translatePath is in xbmcvfs on Kodi 20+
 
 [B]Version v2.0.4[/B]
